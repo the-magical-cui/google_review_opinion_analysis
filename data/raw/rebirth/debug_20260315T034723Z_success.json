@@ -1,0 +1,218 @@
+{
+  "scrape_run_id": "20260315T034723Z",
+  "target_url": "https://www.google.com/maps/place/Rebirth/@25.0213738,121.5303775,17z/data=!4m8!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D",
+  "headless": false,
+  "events": [
+    {
+      "time": "2026-03-15T03:47:23.780442+00:00",
+      "message": "chromedriver_source: explicit_path (C:\\Users\\ja983\\Desktop\\社群媒介分析\\w2_google_place_review\\chromedriver.exe)"
+    },
+    {
+      "time": "2026-03-15T03:47:43.830238+00:00",
+      "message": "final_url: https://www.google.com/maps/place/Rebirth/@25.0213738,121.5303775,17z/data=!4m8!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "time": "2026-03-15T03:47:43.830238+00:00",
+      "message": "page_title: Rebirth - Google 地圖"
+    },
+    {
+      "time": "2026-03-15T03:47:43.830238+00:00",
+      "message": "place_name_detected: Rebirth"
+    },
+    {
+      "time": "2026-03-15T03:47:43.830238+00:00",
+      "message": "place_id: rebirth"
+    },
+    {
+      "time": "2026-03-15T03:47:50.108938+00:00",
+      "message": "located_reviews_panel_with_cards:div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde:2"
+    },
+    {
+      "time": "2026-03-15T03:47:50.108938+00:00",
+      "message": "reviews_entry_detected: already_open"
+    },
+    {
+      "time": "2026-03-15T03:48:01.268927+00:00",
+      "message": "expanded_more_buttons:2"
+    },
+    {
+      "time": "2026-03-15T03:48:14.237266+00:00",
+      "message": "round=1 visible_cards=2 collected=2 new_in_round=2 scroll_top=0 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-15T03:48:32.332084+00:00",
+      "message": "batch_wait_timeout: visible_cards=2 last_card_changed=False"
+    },
+    {
+      "time": "2026-03-15T03:48:41.825493+00:00",
+      "message": "expanded_more_buttons:2"
+    },
+    {
+      "time": "2026-03-15T03:48:55.014108+00:00",
+      "message": "round=2 visible_cards=2 collected=2 new_in_round=0 scroll_top=1632 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-15T03:49:13.442614+00:00",
+      "message": "batch_wait_timeout: visible_cards=2 last_card_changed=False"
+    },
+    {
+      "time": "2026-03-15T03:49:23.688006+00:00",
+      "message": "expanded_more_buttons:2"
+    },
+    {
+      "time": "2026-03-15T03:49:36.616929+00:00",
+      "message": "round=3 visible_cards=2 collected=2 new_in_round=0 scroll_top=1311 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-15T03:49:55.127868+00:00",
+      "message": "batch_wait_timeout: visible_cards=2 last_card_changed=False"
+    },
+    {
+      "time": "2026-03-15T03:50:04.527593+00:00",
+      "message": "expanded_more_buttons:2"
+    },
+    {
+      "time": "2026-03-15T03:50:17.991664+00:00",
+      "message": "round=4 visible_cards=2 collected=2 new_in_round=0 scroll_top=1473 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-15T03:50:40.111527+00:00",
+      "message": "batch_wait_timeout: visible_cards=2 last_card_changed=False"
+    },
+    {
+      "time": "2026-03-15T03:50:49.887256+00:00",
+      "message": "expanded_more_buttons:2"
+    },
+    {
+      "time": "2026-03-15T03:51:07.611580+00:00",
+      "message": "round=5 visible_cards=2 collected=2 new_in_round=0 scroll_top=1347 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-15T03:51:29.392865+00:00",
+      "message": "batch_wait_timeout: visible_cards=2 last_card_changed=False"
+    },
+    {
+      "time": "2026-03-15T03:51:38.797072+00:00",
+      "message": "expanded_more_buttons:2"
+    },
+    {
+      "time": "2026-03-15T03:51:51.757980+00:00",
+      "message": "round=6 visible_cards=2 collected=2 new_in_round=0 scroll_top=1449 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-15T03:52:09.498033+00:00",
+      "message": "batch_wait_timeout: visible_cards=2 last_card_changed=False"
+    },
+    {
+      "time": "2026-03-15T03:52:18.925749+00:00",
+      "message": "expanded_more_buttons:2"
+    },
+    {
+      "time": "2026-03-15T03:52:31.566277+00:00",
+      "message": "round=7 visible_cards=2 collected=2 new_in_round=0 scroll_top=1416 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-15T03:52:49.162365+00:00",
+      "message": "batch_wait_timeout: visible_cards=2 last_card_changed=False"
+    },
+    {
+      "time": "2026-03-15T03:52:58.791596+00:00",
+      "message": "expanded_more_buttons:2"
+    },
+    {
+      "time": "2026-03-15T03:53:11.771335+00:00",
+      "message": "round=8 visible_cards=2 collected=2 new_in_round=0 scroll_top=1323 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-15T03:53:29.661547+00:00",
+      "message": "batch_wait_timeout: visible_cards=2 last_card_changed=False"
+    },
+    {
+      "time": "2026-03-15T03:53:38.856432+00:00",
+      "message": "expanded_more_buttons:2"
+    },
+    {
+      "time": "2026-03-15T03:53:51.859958+00:00",
+      "message": "round=9 visible_cards=2 collected=2 new_in_round=0 scroll_top=1419 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-15T03:54:09.719541+00:00",
+      "message": "batch_wait_timeout: visible_cards=2 last_card_changed=False"
+    },
+    {
+      "time": "2026-03-15T03:54:18.611766+00:00",
+      "message": "expanded_more_buttons:2"
+    },
+    {
+      "time": "2026-03-15T03:54:31.761332+00:00",
+      "message": "round=10 visible_cards=2 collected=2 new_in_round=0 scroll_top=1566 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-15T03:54:49.751234+00:00",
+      "message": "batch_wait_timeout: visible_cards=2 last_card_changed=False"
+    },
+    {
+      "time": "2026-03-15T03:54:58.634695+00:00",
+      "message": "expanded_more_buttons:2"
+    },
+    {
+      "time": "2026-03-15T03:55:11.647650+00:00",
+      "message": "round=11 visible_cards=2 collected=2 new_in_round=0 scroll_top=1542 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-15T03:55:29.235916+00:00",
+      "message": "batch_wait_timeout: visible_cards=2 last_card_changed=False"
+    },
+    {
+      "time": "2026-03-15T03:55:39.330522+00:00",
+      "message": "expanded_more_buttons:2"
+    },
+    {
+      "time": "2026-03-15T03:55:52.271440+00:00",
+      "message": "round=12 visible_cards=2 collected=2 new_in_round=0 scroll_top=1560 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-15T03:56:10.055450+00:00",
+      "message": "batch_wait_timeout: visible_cards=2 last_card_changed=False"
+    },
+    {
+      "time": "2026-03-15T03:56:20.014018+00:00",
+      "message": "expanded_more_buttons:2"
+    },
+    {
+      "time": "2026-03-15T03:56:32.704881+00:00",
+      "message": "round=13 visible_cards=2 collected=2 new_in_round=0 scroll_top=1560 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-15T03:56:50.239697+00:00",
+      "message": "batch_wait_timeout: visible_cards=2 last_card_changed=False"
+    },
+    {
+      "time": "2026-03-15T03:57:00.554041+00:00",
+      "message": "expanded_more_buttons:2"
+    },
+    {
+      "time": "2026-03-15T03:57:13.035450+00:00",
+      "message": "round=14 visible_cards=2 collected=2 new_in_round=0 scroll_top=1545 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-15T03:57:31.151451+00:00",
+      "message": "batch_wait_timeout: visible_cards=2 last_card_changed=False"
+    },
+    {
+      "time": "2026-03-15T03:57:31.151451+00:00",
+      "message": "stop_reason: stagnant_scroll"
+    }
+  ],
+  "review_entry_candidates": [],
+  "chromedriver_source": "explicit_path",
+  "chromedriver_path": "C:\\Users\\ja983\\Desktop\\社群媒介分析\\w2_google_place_review\\chromedriver.exe",
+  "final_url": "https://www.google.com/maps/place/Rebirth/@25.0213738,121.5303775,17z/data=!4m8!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D",
+  "page_title": "Rebirth - Google 地圖",
+  "place_name_detected": "Rebirth",
+  "place_id": "rebirth",
+  "google_place_token": "0x3442a988e919f47d-0xc36d3628b077d501",
+  "existing_review_key_count": 9,
+  "reviews_entry_detected": true,
+  "reviews_entry_mode": "already_open"
+}

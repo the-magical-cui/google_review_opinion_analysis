@@ -1,0 +1,155 @@
+{
+  "scrape_run_id": "20260324T191926Z",
+  "target_url": "https://www.google.com/maps/place/Rebirth/@25.0214341,121.5304036,17z/data=!4m18!1m9!3m8!1s0x3442a988e919f47d:0xc36d3628b077d501!2sRebirth!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxOC4xIKXMDSoASAFQAw%3D%3D",
+  "headless": true,
+  "scroll_strategy": "baseline",
+  "card_selector_mode": "top_level_data_review_id",
+  "panel_interaction_mode": "pagedown",
+  "panel_focus_before_scroll": true,
+  "events": [
+    {
+      "time": "2026-03-24T19:19:26.810161+00:00",
+      "message": "chromedriver_source: explicit_path (C:\\Users\\ja983\\Desktop\\社群媒介分析\\w2_google_place_review\\chromedriver.exe)"
+    },
+    {
+      "time": "2026-03-24T19:19:39.517402+00:00",
+      "message": "final_url: https://www.google.com/maps/place/Rebirth/@25.0214341,121.5304036,17z/data=!4m18!1m9!3m8!1s0x3442a988e919f47d:0xc36d3628b077d501!2sRebirth!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "time": "2026-03-24T19:19:39.517402+00:00",
+      "message": "page_title: Rebirth - Google 地圖"
+    },
+    {
+      "time": "2026-03-24T19:19:39.517402+00:00",
+      "message": "place_name_detected: Rebirth"
+    },
+    {
+      "time": "2026-03-24T19:19:39.517402+00:00",
+      "message": "place_id: rebirth"
+    },
+    {
+      "time": "2026-03-24T19:19:55.608226+00:00",
+      "message": "selector_hit: hh2c6_review_tab_aria=0"
+    },
+    {
+      "time": "2026-03-24T19:19:55.608226+00:00",
+      "message": "selector_hit: hh2c6_any_tab=2"
+    },
+    {
+      "time": "2026-03-24T19:19:55.608226+00:00",
+      "message": "selector_hit: generic_review_tab=0"
+    },
+    {
+      "time": "2026-03-24T19:19:55.608226+00:00",
+      "message": "selector_hit: aria_review_button=1"
+    },
+    {
+      "time": "2026-03-24T19:19:55.608226+00:00",
+      "message": "selector_hit: text_review_button=1"
+    },
+    {
+      "time": "2026-03-24T19:19:55.608226+00:00",
+      "message": "selector_hit: role_button_review=0"
+    },
+    {
+      "time": "2026-03-24T19:19:55.608226+00:00",
+      "message": "selector_hit: review_count_block=1"
+    },
+    {
+      "time": "2026-03-24T19:19:55.608226+00:00",
+      "message": "selector_hit: main_panel_button=1"
+    },
+    {
+      "time": "2026-03-24T19:19:55.608226+00:00",
+      "message": "reviews_entry_detected: True"
+    },
+    {
+      "time": "2026-03-24T19:19:55.608226+00:00",
+      "message": "review_entry_candidate_count: 2"
+    },
+    {
+      "time": "2026-03-24T19:19:55.608226+00:00",
+      "message": "candidate[1]: source=hh2c6_any_tab score=18 tag=button role=tab aria=「Rebirth」總覽 text=總覽"
+    },
+    {
+      "time": "2026-03-24T19:19:55.608226+00:00",
+      "message": "candidate[2]: source=hh2c6_any_tab score=16 tag=button role=tab aria=Rebirth簡介 text=簡介"
+    },
+    {
+      "time": "2026-03-24T19:19:56.139952+00:00",
+      "message": "clicked_review_candidate"
+    },
+    {
+      "time": "2026-03-24T19:20:11.458978+00:00",
+      "message": "clicked_review_candidate"
+    }
+  ],
+  "review_entry_candidates": [
+    {
+      "source": "hh2c6_any_tab",
+      "text": "總覽",
+      "aria_label": "「Rebirth」總覽",
+      "role": "tab",
+      "tag_name": "button",
+      "score": 18
+    },
+    {
+      "source": "hh2c6_any_tab",
+      "text": "簡介",
+      "aria_label": "Rebirth簡介",
+      "role": "tab",
+      "tag_name": "button",
+      "score": 16
+    }
+  ],
+  "round_logs": [],
+  "scroll_container_candidates": [],
+  "chromedriver_source": "explicit_path",
+  "chromedriver_path": "C:\\Users\\ja983\\Desktop\\社群媒介分析\\w2_google_place_review\\chromedriver.exe",
+  "final_url": "https://www.google.com/maps/place/Rebirth/@25.0214341,121.5304036,17z/data=!4m18!1m9!3m8!1s0x3442a988e919f47d:0xc36d3628b077d501!2sRebirth!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D",
+  "page_title": "Rebirth - Google 地圖",
+  "place_name_detected": "Rebirth",
+  "place_id": "rebirth",
+  "google_place_token": "0x3442a988e919f47d-0xc36d3628b077d501",
+  "existing_review_key_count": 18,
+  "panel_selector_hit": "div.m6QErb",
+  "panel_detection_mode": "m6QErb_fallback",
+  "panel_scrollable_verified": false,
+  "panel_review_count": 0,
+  "review_entry_selector_hits": [
+    {
+      "source": "hh2c6_review_tab_aria",
+      "hits": 0
+    },
+    {
+      "source": "hh2c6_any_tab",
+      "hits": 2
+    },
+    {
+      "source": "generic_review_tab",
+      "hits": 0
+    },
+    {
+      "source": "aria_review_button",
+      "hits": 1
+    },
+    {
+      "source": "text_review_button",
+      "hits": 1
+    },
+    {
+      "source": "role_button_review",
+      "hits": 0
+    },
+    {
+      "source": "review_count_block",
+      "hits": 1
+    },
+    {
+      "source": "main_panel_button",
+      "hits": 1
+    }
+  ],
+  "reviews_entry_detected": false,
+  "error": "RuntimeError('review_intent_direct_failed')"
+}

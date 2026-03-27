@@ -1,0 +1,97 @@
+{
+  "scrape_run_id": "20260314T101142Z",
+  "target_url": "https://www.google.com/maps/place/Rebirth/@25.0213738,121.5303775,17z/data=!4m8!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D",
+  "headless": false,
+  "events": [
+    {
+      "time": "2026-03-14T10:11:49.923255+00:00",
+      "message": "final_url: https://www.google.com/maps/place/Rebirth/@25.0213738,121.5303775,17z/data=!4m8!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "time": "2026-03-14T10:11:49.923255+00:00",
+      "message": "page_title: Rebirth - Google 地圖"
+    },
+    {
+      "time": "2026-03-14T10:11:49.923255+00:00",
+      "message": "place_name_detected: Rebirth"
+    },
+    {
+      "time": "2026-03-14T10:11:49.923255+00:00",
+      "message": "place_id: rebirth-0x3442a988e919f47d-0xc36d3628b077d501"
+    },
+    {
+      "time": "2026-03-14T10:11:50.116378+00:00",
+      "message": "selector_hit: aria_review_button=1"
+    },
+    {
+      "time": "2026-03-14T10:11:50.116378+00:00",
+      "message": "selector_hit: text_review_button=1"
+    },
+    {
+      "time": "2026-03-14T10:11:50.116378+00:00",
+      "message": "selector_hit: role_button_review=0"
+    },
+    {
+      "time": "2026-03-14T10:11:50.116378+00:00",
+      "message": "selector_hit: review_count_block=1"
+    },
+    {
+      "time": "2026-03-14T10:11:50.116378+00:00",
+      "message": "selector_hit: main_panel_button=1"
+    },
+    {
+      "time": "2026-03-14T10:11:55.332812+00:00",
+      "message": "reviews_entry_detected: True"
+    },
+    {
+      "time": "2026-03-14T10:11:55.332812+00:00",
+      "message": "review_entry_candidate_count: 1"
+    },
+    {
+      "time": "2026-03-14T10:11:55.332812+00:00",
+      "message": "candidate[1]: source=review_count_block score=2 tag=button role= aria= text=咖啡店"
+    },
+    {
+      "time": "2026-03-14T10:11:55.865737+00:00",
+      "message": "clicked_review_candidate"
+    }
+  ],
+  "review_entry_candidates": [
+    {
+      "source": "review_count_block",
+      "text": "咖啡店",
+      "aria_label": "",
+      "role": "",
+      "tag_name": "button",
+      "score": 2
+    }
+  ],
+  "final_url": "https://www.google.com/maps/place/Rebirth/@25.0213738,121.5303775,17z/data=!4m8!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D",
+  "page_title": "Rebirth - Google 地圖",
+  "place_name_detected": "Rebirth",
+  "place_id": "rebirth-0x3442a988e919f47d-0xc36d3628b077d501",
+  "existing_review_key_count": 0,
+  "review_entry_selector_hits": [
+    {
+      "source": "aria_review_button",
+      "hits": 1
+    },
+    {
+      "source": "text_review_button",
+      "hits": 1
+    },
+    {
+      "source": "role_button_review",
+      "hits": 0
+    },
+    {
+      "source": "review_count_block",
+      "hits": 1
+    },
+    {
+      "source": "main_panel_button",
+      "hits": 1
+    }
+  ],
+  "error": "InvalidSessionIdException()"
+}

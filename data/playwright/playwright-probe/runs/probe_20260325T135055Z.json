@@ -1,0 +1,231 @@
+{
+  "framework": "playwright",
+  "entry_mode": "attach_existing_reviews_page",
+  "target_url": null,
+  "search_query": null,
+  "place_name_hint": null,
+  "profile_dir": "data\\playwright\\profile\\manual_google_maps",
+  "manual_handoff_expected": true,
+  "manual_ready_timeout": 180,
+  "expect_reviews_tab": true,
+  "verified_scroll_selector": "div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde",
+  "review_card_selector": "[data-review-id]",
+  "events": [
+    {
+      "time": "2026-03-25T13:50:56.739717+00:00",
+      "message": "browser_launch:persistent_system_chrome_profile"
+    },
+    {
+      "time": "2026-03-25T13:50:57.739481+00:00",
+      "message": "manual_handoff_started"
+    },
+    {
+      "time": "2026-03-25T13:51:04.979786+00:00",
+      "message": "manual_handoff_opened_maps_home"
+    },
+    {
+      "time": "2026-03-25T13:51:30.464169+00:00",
+      "message": "manual_handoff_completed"
+    },
+    {
+      "time": "2026-03-25T13:51:34.259464+00:00",
+      "message": "expected_reviews_tab_but_pane_missing"
+    },
+    {
+      "time": "2026-03-25T13:51:34.259464+00:00",
+      "message": "reviews_context_not_found_before_tab_click"
+    },
+    {
+      "time": "2026-03-25T13:51:37.435224+00:00",
+      "message": "reviews_tab_clicked:hh2c6_review_tab"
+    },
+    {
+      "time": "2026-03-25T13:51:37.549570+00:00",
+      "message": "reviews_entry_opened_by:hh2c6_review_tab"
+    },
+    {
+      "time": "2026-03-25T13:51:38.170149+00:00",
+      "message": "entry_verdict:entered_full_review_list"
+    },
+    {
+      "time": "2026-03-25T13:51:41.902658+00:00",
+      "message": "strategy:pane_step_scroll:review_count_delta=0:scroll_height_delta=0"
+    },
+    {
+      "time": "2026-03-25T13:51:45.016065+00:00",
+      "message": "strategy:last_card_into_view:review_count_delta=116:scroll_height_delta=6010"
+    },
+    {
+      "time": "2026-03-25T13:51:47.373025+00:00",
+      "message": "strategy:mouse_wheel_over_pane:review_count_delta=0:scroll_height_delta=0"
+    }
+  ],
+  "strategy_results": {
+    "pane_step_scroll": {
+      "action_result": {
+        "step": 383,
+        "step_scroll_tops": [
+          383,
+          766,
+          1149
+        ]
+      },
+      "review_card_count_before": 117,
+      "review_card_count_after": 117,
+      "last_review_id_before": "ChZDSUhNMG9nS0VJQ0FnSUNmNjlUaFp3EAE",
+      "last_review_id_after": "ChZDSUhNMG9nS0VJQ0FnSUNmNjlUaFp3EAE",
+      "scroll_top_before": 0,
+      "scroll_top_after": 1149,
+      "scroll_height_before": 6438,
+      "scroll_height_after": 6438,
+      "review_count_delta": 0,
+      "scroll_height_delta": 0,
+      "triggered_growth": false
+    },
+    "last_card_into_view": {
+      "action_result": {
+        "scrolled": true
+      },
+      "review_card_count_before": 117,
+      "review_card_count_after": 233,
+      "last_review_id_before": "ChZDSUhNMG9nS0VJQ0FnSUNmNjlUaFp3EAE",
+      "last_review_id_after": "ChZDSUhNMG9nS0VJQ0FnSUNLZ1AyeUhREAE",
+      "scroll_top_before": 1149,
+      "scroll_top_after": 5718,
+      "scroll_height_before": 6438,
+      "scroll_height_after": 12448,
+      "review_count_delta": 116,
+      "scroll_height_delta": 6010,
+      "triggered_growth": true
+    },
+    "mouse_wheel_over_pane": {
+      "action_result": {
+        "wheel_used": true
+      },
+      "review_card_count_before": 233,
+      "review_card_count_after": 233,
+      "last_review_id_before": "ChZDSUhNMG9nS0VJQ0FnSUNLZ1AyeUhREAE",
+      "last_review_id_after": "ChZDSUhNMG9nS0VJQ0FnSUNLZ1AyeUhREAE",
+      "scroll_top_before": 5718,
+      "scroll_top_after": 6198,
+      "scroll_height_before": 12448,
+      "scroll_height_after": 12448,
+      "review_count_delta": 0,
+      "scroll_height_delta": 0,
+      "triggered_growth": false
+    }
+  },
+  "tab_candidates": [
+    {
+      "source": "hh2c6_review_tab",
+      "text": "評論",
+      "aria_label": "對「Rebirth」的評論",
+      "role": "tab",
+      "class_name": "hh2c6 G7m0Af",
+      "data_tab_index": "2",
+      "visible": true,
+      "score": 18
+    },
+    {
+      "source": "generic_role_tab",
+      "text": "評論",
+      "aria_label": "對「Rebirth」的評論",
+      "role": "tab",
+      "class_name": "hh2c6 G7m0Af",
+      "data_tab_index": "2",
+      "visible": true,
+      "score": 18
+    },
+    {
+      "source": "hh2c6_review_tab",
+      "text": "總覽",
+      "aria_label": "「Rebirth」總覽",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "0",
+      "visible": true,
+      "score": 6
+    },
+    {
+      "source": "hh2c6_review_tab",
+      "text": "菜單",
+      "aria_label": "菜單",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "1",
+      "visible": true,
+      "score": 6
+    },
+    {
+      "source": "hh2c6_review_tab",
+      "text": "簡介",
+      "aria_label": "Rebirth簡介",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "3",
+      "visible": true,
+      "score": 6
+    },
+    {
+      "source": "generic_role_tab",
+      "text": "總覽",
+      "aria_label": "「Rebirth」總覽",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "0",
+      "visible": true,
+      "score": 6
+    },
+    {
+      "source": "generic_role_tab",
+      "text": "菜單",
+      "aria_label": "菜單",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "1",
+      "visible": true,
+      "score": 6
+    },
+    {
+      "source": "generic_role_tab",
+      "text": "簡介",
+      "aria_label": "Rebirth簡介",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "3",
+      "visible": true,
+      "score": 6
+    }
+  ],
+  "current_page_url_before_probe": "https://www.google.com/maps/place/Rebirth/@25.021369,121.5303775,17z/data=!3m1!4b1!4m6!3m5!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!16s%2Fg%2F1ptvr89ww?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D",
+  "current_page_title_before_probe": "Rebirth - Google 地圖",
+  "pre_entry_screenshot": "data\\playwright\\playwright-probe\\runs\\probe_20260325T135055Z_pre_entry.png",
+  "manual_reviews_tab_already_open": false,
+  "tab_candidate_count": 8,
+  "selected_review_tab_candidate": {
+    "source": "hh2c6_review_tab",
+    "text": "評論",
+    "aria_label": "對「Rebirth」的評論",
+    "role": "tab",
+    "class_name": "hh2c6 G7m0Af",
+    "data_tab_index": "2",
+    "visible": true,
+    "score": 18
+  },
+  "clicked_review_tab": true,
+  "reviews_entry_mode": "clicked:hh2c6_review_tab",
+  "pane_found": true,
+  "post_probe_screenshot": "data\\playwright\\playwright-probe\\runs\\probe_20260325T135055Z_post_tab.png",
+  "entry_verdict": "entered_full_review_list",
+  "pane_selector_hit": "div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde",
+  "overflow_y": "auto",
+  "scroll_top": 0,
+  "scroll_height": 6438,
+  "client_height": 959,
+  "review_card_count_before": 117,
+  "last_review_id_before": "ChZDSUhNMG9nS0VJQ0FnSUNmNjlUaFp3EAE",
+  "review_card_count_after": 233,
+  "last_review_id_after": "ChZDSUhNMG9nS0VJQ0FnSUNLZ1AyeUhREAE",
+  "final_scroll_top": 6198,
+  "final_scroll_height": 12448
+}

@@ -1,0 +1,38 @@
+{
+  "framework": "playwright",
+  "target_url": "https://www.google.com/maps/place/Rebirth/@25.021369,121.5329524,17z/data=!3m1!4b1!4m6!3m5!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!16s%2Fg%2F1ptvr89ww?authuser=0&hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+  "verified_scroll_selector": "div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde",
+  "review_card_selector": "[data-review-id]",
+  "events": [
+    {
+      "time": "2026-03-25T11:37:54.007283+00:00",
+      "message": "browser_launch:system_chrome_channel"
+    },
+    {
+      "time": "2026-03-25T11:38:05.093403+00:00",
+      "message": "page_loaded"
+    },
+    {
+      "time": "2026-03-25T11:38:39.189854+00:00",
+      "message": "review_intent_direct_failed"
+    },
+    {
+      "time": "2026-03-25T11:38:39.222907+00:00",
+      "message": "tab_fallback_attempted:hh2c6_review_tab:2"
+    },
+    {
+      "time": "2026-03-25T11:38:45.917147+00:00",
+      "message": "tab_fallback_attempted:generic_role_tab:2"
+    },
+    {
+      "time": "2026-03-25T11:38:52.551827+00:00",
+      "message": "tab_fallback_attempted:aria_reviews:1"
+    }
+  ],
+  "strategy_results": {},
+  "pre_entry_screenshot": "data\\playwright\\rebirth\\runs\\probe_20260325T113750Z_pre_entry.png",
+  "reviews_entry_mode": "failed",
+  "pane_found": false,
+  "entry_verdict": "failed_to_enter_reviews_context",
+  "final_stop_reason": "failed_to_enter_reviews_context"
+}

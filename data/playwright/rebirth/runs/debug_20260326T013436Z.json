@@ -1,0 +1,172 @@
+{
+  "framework": "playwright",
+  "entry_mode": "attach_existing_reviews_page",
+  "target_url": null,
+  "search_query": null,
+  "place_name_hint": "Rebirth",
+  "profile_dir": "data\\playwright\\profile\\manual_google_maps",
+  "manual_handoff_expected": true,
+  "manual_ready_timeout": 180,
+  "expect_reviews_tab": true,
+  "verified_scroll_selector": "div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde",
+  "review_card_selector": "[data-review-id]",
+  "events": [
+    {
+      "time": "2026-03-26T01:34:54.754204+00:00",
+      "message": "browser_launch:persistent_system_chrome_profile"
+    },
+    {
+      "time": "2026-03-26T01:34:55.834958+00:00",
+      "message": "manual_handoff_started"
+    },
+    {
+      "time": "2026-03-26T01:34:59.572662+00:00",
+      "message": "manual_handoff_opened_maps_home"
+    },
+    {
+      "time": "2026-03-26T01:35:11.975111+00:00",
+      "message": "manual_handoff_completed"
+    },
+    {
+      "time": "2026-03-26T01:35:14.303368+00:00",
+      "message": "expected_reviews_tab_but_pane_missing"
+    },
+    {
+      "time": "2026-03-26T01:35:14.303368+00:00",
+      "message": "reviews_context_not_found_before_tab_click"
+    },
+    {
+      "time": "2026-03-26T01:35:17.387071+00:00",
+      "message": "reviews_tab_clicked:hh2c6_review_tab"
+    },
+    {
+      "time": "2026-03-26T01:35:17.439081+00:00",
+      "message": "reviews_entry_opened_by:hh2c6_review_tab"
+    },
+    {
+      "time": "2026-03-26T01:35:19.289515+00:00",
+      "message": "playwright_expanded_more_buttons:3"
+    },
+    {
+      "time": "2026-03-26T01:35:28.290399+00:00",
+      "message": "initial_cards_collected:11"
+    },
+    {
+      "time": "2026-03-26T01:38:27.293505+00:00",
+      "message": "scrape_exception:TimeoutError"
+    }
+  ],
+  "strategy_results": {},
+  "tab_candidates": [
+    {
+      "source": "hh2c6_review_tab",
+      "text": "評論",
+      "aria_label": "對「Rebirth」的評論",
+      "role": "tab",
+      "class_name": "hh2c6 G7m0Af",
+      "data_tab_index": "2",
+      "visible": true,
+      "score": 18
+    },
+    {
+      "source": "generic_role_tab",
+      "text": "評論",
+      "aria_label": "對「Rebirth」的評論",
+      "role": "tab",
+      "class_name": "hh2c6 G7m0Af",
+      "data_tab_index": "2",
+      "visible": true,
+      "score": 18
+    },
+    {
+      "source": "hh2c6_review_tab",
+      "text": "總覽",
+      "aria_label": "「Rebirth」總覽",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "0",
+      "visible": true,
+      "score": 6
+    },
+    {
+      "source": "hh2c6_review_tab",
+      "text": "菜單",
+      "aria_label": "菜單",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "1",
+      "visible": true,
+      "score": 6
+    },
+    {
+      "source": "hh2c6_review_tab",
+      "text": "簡介",
+      "aria_label": "Rebirth簡介",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "3",
+      "visible": true,
+      "score": 6
+    },
+    {
+      "source": "generic_role_tab",
+      "text": "總覽",
+      "aria_label": "「Rebirth」總覽",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "0",
+      "visible": true,
+      "score": 6
+    },
+    {
+      "source": "generic_role_tab",
+      "text": "菜單",
+      "aria_label": "菜單",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "1",
+      "visible": true,
+      "score": 6
+    },
+    {
+      "source": "generic_role_tab",
+      "text": "簡介",
+      "aria_label": "Rebirth簡介",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "3",
+      "visible": true,
+      "score": 6
+    }
+  ],
+  "place_id": "rebirth",
+  "place_name": "Rebirth",
+  "current_page_url_before_probe": "https://www.google.com/maps/place/Rebirth/@25.021369,121.5303775,17z/data=!3m1!4b1!4m6!3m5!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!16s%2Fg%2F1ptvr89ww?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+  "current_page_title_before_probe": "Rebirth - Google 地圖",
+  "pre_entry_screenshot": "data\\playwright\\rebirth\\runs\\debug_20260326T013436Z_pre_entry.png",
+  "manual_reviews_tab_already_open": false,
+  "tab_candidate_count": 8,
+  "selected_review_tab_candidate": {
+    "source": "hh2c6_review_tab",
+    "text": "評論",
+    "aria_label": "對「Rebirth」的評論",
+    "role": "tab",
+    "class_name": "hh2c6 G7m0Af",
+    "data_tab_index": "2",
+    "visible": true,
+    "score": 18
+  },
+  "clicked_review_tab": true,
+  "reviews_entry_mode": "clicked:hh2c6_review_tab",
+  "pane_found": true,
+  "entry_verdict": "failed_to_enter_reviews_context",
+  "initial_review_card_count": 117,
+  "pane_selector_hit": "div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde",
+  "source_url": "https://www.google.com/maps/place/Rebirth/@25.021369,121.5303775,17z/data=!4m8!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+  "google_place_token": "0x3442a988e919f47d-0xc36d3628b077d501",
+  "final_stop_reason": "TimeoutError",
+  "exception": {
+    "type": "TimeoutError",
+    "message": "Locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde\").first.locator(\"[data-review-id]\").nth(712)\n"
+  }
+}

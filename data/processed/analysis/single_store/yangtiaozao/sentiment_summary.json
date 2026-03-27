@@ -1,0 +1,22 @@
+[
+  {
+    "place_id": "yangtiaozao",
+    "review_count": 156,
+    "avg_sentiment_score": 0.7339743589743589,
+    "avg_star_rating": 4.243589743589744,
+    "avg_spend_amount": 206.93333333333334,
+    "spend_sample_count": 45,
+    "avg_google_food_rating": 4.263888888888889,
+    "google_food_rating_count": 72,
+    "avg_google_service_rating": 4.232876712328767,
+    "google_service_rating_count": 73,
+    "avg_google_atmosphere_rating": 4.493333333333333,
+    "google_atmosphere_rating_count": 75,
+    "negative": 9,
+    "neutral": 78,
+    "positive": 69,
+    "positive_ratio": 0.4423076923076923,
+    "neutral_ratio": 0.5,
+    "negative_ratio": 0.057692307692307696
+  }
+]

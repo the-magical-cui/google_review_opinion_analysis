@@ -1,0 +1,33 @@
+{
+  "framework": "playwright",
+  "entry_mode": "search_then_click_place",
+  "target_url": null,
+  "search_query": "Rebirth",
+  "place_name_hint": "Rebirth",
+  "verified_scroll_selector": "div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde",
+  "review_card_selector": "[data-review-id]",
+  "events": [
+    {
+      "time": "2026-03-25T12:36:48.603147+00:00",
+      "message": "browser_launch:system_chrome_channel"
+    },
+    {
+      "time": "2026-03-25T12:36:53.068628+00:00",
+      "message": "page_loaded:maps_home"
+    },
+    {
+      "time": "2026-03-25T12:37:08.354013+00:00",
+      "message": "probe_exception:RuntimeError"
+    }
+  ],
+  "strategy_results": {},
+  "tab_candidates": [],
+  "page_title_before_search_failure": "Google 地圖",
+  "page_url_before_search_failure": "https://www.google.com/maps/@25.0470043,121.4370381,15z?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDMyMi4wIKXMDSoASAFQAw%3D%3D",
+  "entry_verdict": "failed_to_enter_reviews_context",
+  "final_stop_reason": "RuntimeError",
+  "exception": {
+    "type": "RuntimeError",
+    "message": "找不到 Google Maps 搜尋框"
+  }
+}

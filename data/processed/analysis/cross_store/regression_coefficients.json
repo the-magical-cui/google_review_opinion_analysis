@@ -1,0 +1,386 @@
+[
+  {
+    "model_name": "star_on_overall_sentiment",
+    "scope": "all",
+    "place_id": "all",
+    "feature_name": "const",
+    "coef": 3.79661848128299,
+    "p_value": 0.0
+  },
+  {
+    "model_name": "star_on_overall_sentiment",
+    "scope": "all",
+    "place_id": "all",
+    "feature_name": "sentiment_score",
+    "coef": 0.3754257908712358,
+    "p_value": 1.6816043699367272e-39
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "all",
+    "place_id": "all",
+    "feature_name": "const",
+    "coef": 4.017766664366368,
+    "p_value": 0.0
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "all",
+    "place_id": "all",
+    "feature_name": "飲品",
+    "coef": 0.12981501373747847,
+    "p_value": 0.019803388710838705
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "all",
+    "place_id": "all",
+    "feature_name": "正餐",
+    "coef": 0.03487738696832146,
+    "p_value": 0.5872563600996943
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "all",
+    "place_id": "all",
+    "feature_name": "甜點",
+    "coef": 0.11236340486700161,
+    "p_value": 0.18437798280787784
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "all",
+    "place_id": "all",
+    "feature_name": "功能用途",
+    "coef": -0.006376421127735676,
+    "p_value": 0.9347373903374541
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "all",
+    "place_id": "all",
+    "feature_name": "氛圍/風格",
+    "coef": 0.07432678072315543,
+    "p_value": 0.2587352810565753
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "all",
+    "place_id": "all",
+    "feature_name": "店員/服務",
+    "coef": 0.21307345786774176,
+    "p_value": 0.001978064203739614
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "all",
+    "place_id": "all",
+    "feature_name": "價格",
+    "coef": 0.1876251554225469,
+    "p_value": 0.07208941286801353
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "all",
+    "place_id": "all",
+    "feature_name": "衛生/整潔",
+    "coef": 0.7043910366526505,
+    "p_value": 7.684992685836049e-12
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "all",
+    "place_id": "all",
+    "feature_name": "出餐速度",
+    "coef": 0.03639033190420027,
+    "p_value": 0.7392956069384717
+  },
+  {
+    "model_name": "star_on_overall_sentiment",
+    "scope": "place",
+    "place_id": "rebirth",
+    "feature_name": "const",
+    "coef": 3.5299109774135085,
+    "p_value": 5.661473474723914e-153
+  },
+  {
+    "model_name": "star_on_overall_sentiment",
+    "scope": "place",
+    "place_id": "rebirth",
+    "feature_name": "sentiment_score",
+    "coef": 0.4312674458691518,
+    "p_value": 1.1044622706184394e-25
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "rebirth",
+    "feature_name": "const",
+    "coef": 3.8504868156195986,
+    "p_value": 3.798274007687225e-157
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "rebirth",
+    "feature_name": "飲品",
+    "coef": 0.1607674652997292,
+    "p_value": 0.10942329017215201
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "rebirth",
+    "feature_name": "正餐",
+    "coef": 0.09731288443958878,
+    "p_value": 0.3002312759933148
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "rebirth",
+    "feature_name": "甜點",
+    "coef": 0.09942899066898017,
+    "p_value": 0.5310354860946807
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "rebirth",
+    "feature_name": "功能用途",
+    "coef": -0.004991043426503472,
+    "p_value": 0.9681325860261581
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "rebirth",
+    "feature_name": "氛圍/風格",
+    "coef": 0.03206441910510123,
+    "p_value": 0.7748683468731099
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "rebirth",
+    "feature_name": "店員/服務",
+    "coef": 0.2535658918412168,
+    "p_value": 0.014880955772785878
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "rebirth",
+    "feature_name": "價格",
+    "coef": 0.1777408384024838,
+    "p_value": 0.3171228882018758
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "rebirth",
+    "feature_name": "衛生/整潔",
+    "coef": 0.664509701853166,
+    "p_value": 2.343142332328268e-06
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "rebirth",
+    "feature_name": "出餐速度",
+    "coef": 0.12083866265590659,
+    "p_value": 0.4002533379841495
+  },
+  {
+    "model_name": "star_on_overall_sentiment",
+    "scope": "place",
+    "place_id": "xuekewu",
+    "feature_name": "const",
+    "coef": 3.9809866635814837,
+    "p_value": 7.143467868672641e-189
+  },
+  {
+    "model_name": "star_on_overall_sentiment",
+    "scope": "place",
+    "place_id": "xuekewu",
+    "feature_name": "sentiment_score",
+    "coef": 0.3144050148299285,
+    "p_value": 2.7830854187126254e-12
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "xuekewu",
+    "feature_name": "const",
+    "coef": 4.101977383521479,
+    "p_value": 1.7980880905765124e-191
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "xuekewu",
+    "feature_name": "飲品",
+    "coef": 0.1454301580969,
+    "p_value": 0.06697568919454278
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "xuekewu",
+    "feature_name": "正餐",
+    "coef": -0.01689480906666979,
+    "p_value": 0.8883955379308014
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "xuekewu",
+    "feature_name": "甜點",
+    "coef": 0.2004041399821987,
+    "p_value": 0.1693670781519899
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "xuekewu",
+    "feature_name": "功能用途",
+    "coef": 0.10611609000050784,
+    "p_value": 0.40866257610269585
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "xuekewu",
+    "feature_name": "氛圍/風格",
+    "coef": 0.0726528886559355,
+    "p_value": 0.4937205132996274
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "xuekewu",
+    "feature_name": "店員/服務",
+    "coef": 0.23071223027098114,
+    "p_value": 0.07164589791092302
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "xuekewu",
+    "feature_name": "價格",
+    "coef": 0.12751280612022262,
+    "p_value": 0.36450036485771387
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "xuekewu",
+    "feature_name": "衛生/整潔",
+    "coef": 0.6456581769117232,
+    "p_value": 0.011722419227073285
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "xuekewu",
+    "feature_name": "出餐速度",
+    "coef": -0.23365046430237246,
+    "p_value": 0.25843881082615866
+  },
+  {
+    "model_name": "star_on_overall_sentiment",
+    "scope": "place",
+    "place_id": "yangtiaozao",
+    "feature_name": "const",
+    "coef": 3.966701719868379,
+    "p_value": 1.7222159423275532e-73
+  },
+  {
+    "model_name": "star_on_overall_sentiment",
+    "scope": "place",
+    "place_id": "yangtiaozao",
+    "feature_name": "sentiment_score",
+    "coef": 0.37724481834526336,
+    "p_value": 7.606342603200838e-06
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "yangtiaozao",
+    "feature_name": "const",
+    "coef": 4.124460538243772,
+    "p_value": 9.812637825531138e-72
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "yangtiaozao",
+    "feature_name": "飲品",
+    "coef": 0.0016589353735322332,
+    "p_value": 0.9920818359361205
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "yangtiaozao",
+    "feature_name": "正餐",
+    "coef": -0.08502703484612555,
+    "p_value": 0.7020914658763358
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "yangtiaozao",
+    "feature_name": "甜點",
+    "coef": 0.15405500598568456,
+    "p_value": 0.42754293699877166
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "yangtiaozao",
+    "feature_name": "功能用途",
+    "coef": -0.1538616617103843,
+    "p_value": 0.6190731537298761
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "yangtiaozao",
+    "feature_name": "氛圍/風格",
+    "coef": 0.16856653838844055,
+    "p_value": 0.3230014423074141
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "yangtiaozao",
+    "feature_name": "店員/服務",
+    "coef": 0.27991296356586987,
+    "p_value": 0.19533125991387829
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "yangtiaozao",
+    "feature_name": "價格",
+    "coef": 0.1961222448657047,
+    "p_value": 0.617332343757849
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "yangtiaozao",
+    "feature_name": "衛生/整潔",
+    "coef": 0.6209811433504193,
+    "p_value": 0.07231372277555081
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "yangtiaozao",
+    "feature_name": "出餐速度",
+    "coef": -0.3713640138287271,
+    "p_value": 0.6690476657124813
+  }
+]

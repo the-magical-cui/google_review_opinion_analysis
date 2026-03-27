@@ -1,0 +1,22 @@
+[
+  {
+    "place_id": "rebirth",
+    "review_count": 360,
+    "avg_sentiment_score": 1.1222222222222222,
+    "avg_star_rating": 4.013888888888889,
+    "avg_spend_amount": 325.63953488372096,
+    "spend_sample_count": 86,
+    "avg_google_food_rating": 4.020618556701031,
+    "google_food_rating_count": 97,
+    "avg_google_service_rating": 4.25,
+    "google_service_rating_count": 96,
+    "avg_google_atmosphere_rating": 3.9896907216494846,
+    "google_atmosphere_rating_count": 97,
+    "negative": 38,
+    "neutral": 105,
+    "positive": 217,
+    "positive_ratio": 0.6027777777777777,
+    "neutral_ratio": 0.2916666666666667,
+    "negative_ratio": 0.10555555555555556
+  }
+]

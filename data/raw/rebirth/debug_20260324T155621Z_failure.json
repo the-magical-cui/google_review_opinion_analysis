@@ -1,0 +1,482 @@
+{
+  "scrape_run_id": "20260324T155621Z",
+  "target_url": "https://www.google.com/maps/place/Rebirth/@25.0213738,121.5303775,17z/data=!4m8!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D",
+  "headless": false,
+  "scroll_strategy": "baseline",
+  "card_selector_mode": "top_level_data_review_id",
+  "panel_interaction_mode": "pagedown",
+  "panel_focus_before_scroll": true,
+  "events": [
+    {
+      "time": "2026-03-24T15:56:21.407535+00:00",
+      "message": "chromedriver_source: explicit_path (C:\\Users\\ja983\\Desktop\\社群媒介分析\\w2_google_place_review\\chromedriver.exe)"
+    },
+    {
+      "time": "2026-03-24T15:56:40.399617+00:00",
+      "message": "final_url: https://www.google.com/maps/place/Rebirth/@25.0213738,121.5303775,17z/data=!4m8!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxOC4xIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "time": "2026-03-24T15:56:40.399617+00:00",
+      "message": "page_title: Rebirth - Google 地圖"
+    },
+    {
+      "time": "2026-03-24T15:56:40.399617+00:00",
+      "message": "place_name_detected: Rebirth"
+    },
+    {
+      "time": "2026-03-24T15:56:40.399617+00:00",
+      "message": "place_id: rebirth"
+    },
+    {
+      "time": "2026-03-24T15:56:41.283153+00:00",
+      "message": "located_reviews_panel_with_cards:div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde:8"
+    },
+    {
+      "time": "2026-03-24T15:56:41.283153+00:00",
+      "message": "reviews_entry_detected: already_open"
+    },
+    {
+      "time": "2026-03-24T15:56:42.029172+00:00",
+      "message": "selected_scroll_container: review_count=8 scroll_height=5222 class=m6QErb DxyBCb kA9KIf dS8AEf XiKgde "
+    },
+    {
+      "time": "2026-03-24T15:56:54.810942+00:00",
+      "message": "selected_scroll_container: review_count=8 scroll_height=5222 class=m6QErb DxyBCb kA9KIf dS8AEf XiKgde "
+    },
+    {
+      "time": "2026-03-24T15:57:00.021922+00:00",
+      "message": "expanded_more_buttons:8"
+    },
+    {
+      "time": "2026-03-24T15:57:18.261415+00:00",
+      "message": "round=1 strategy=baseline visible_cards=8 collected=8 new_in_round=8 last_review_id=ChdDSUhNMG9nS0VJQ0FnSURmamRta2pRRRAB scroll_top=0 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-24T15:57:35.563378+00:00",
+      "message": "batch_wait_timeout: visible_cards=8 spinner_seen=False mutation_seen=False"
+    },
+    {
+      "time": "2026-03-24T15:57:38.509463+00:00",
+      "message": "selected_scroll_container: review_count=8 scroll_height=5222 class=m6QErb DxyBCb kA9KIf dS8AEf XiKgde "
+    },
+    {
+      "time": "2026-03-24T15:57:43.963420+00:00",
+      "message": "expanded_more_buttons:8"
+    },
+    {
+      "time": "2026-03-24T15:58:02.459078+00:00",
+      "message": "round=2 strategy=baseline visible_cards=8 collected=8 new_in_round=0 last_review_id=ChdDSUhNMG9nS0VJQ0FnSURmamRta2pRRRAB scroll_top=1080 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-24T15:58:09.119567+00:00",
+      "message": "batch_loaded: reason=new_review_ids visible_cards=10 new_review_ids=5 scroll_height=7712"
+    },
+    {
+      "time": "2026-03-24T15:58:15.209468+00:00",
+      "message": "selected_scroll_container: review_count=10 scroll_height=7712 class=m6QErb DxyBCb kA9KIf dS8AEf XiKgde "
+    },
+    {
+      "time": "2026-03-24T15:58:24.313483+00:00",
+      "message": "expanded_more_buttons:13"
+    },
+    {
+      "time": "2026-03-24T15:59:28.897969+00:00",
+      "message": "round=3 strategy=baseline visible_cards=19 collected=22 new_in_round=14 last_review_id=ChZDSUhNMG9nS0VJQ0FnSUNPajZhcWVBEAE scroll_top=11310 scroll_height=16292 client_height=602"
+    },
+    {
+      "time": "2026-03-24T15:59:47.796294+00:00",
+      "message": "batch_wait_timeout: visible_cards=19 spinner_seen=False mutation_seen=False"
+    },
+    {
+      "time": "2026-03-24T15:59:51.376499+00:00",
+      "message": "selected_scroll_container: review_count=19 scroll_height=16292 class=m6QErb DxyBCb kA9KIf dS8AEf XiKgde "
+    },
+    {
+      "time": "2026-03-24T16:01:01.696424+00:00",
+      "message": "round=4 strategy=baseline visible_cards=19 collected=22 new_in_round=0 last_review_id=ChZDSUhNMG9nS0VJQ0FnSUNPajZhcWVBEAE scroll_top=12392 scroll_height=16292 client_height=602"
+    },
+    {
+      "time": "2026-03-24T16:01:21.752467+00:00",
+      "message": "batch_wait_timeout: visible_cards=19 spinner_seen=False mutation_seen=False"
+    },
+    {
+      "time": "2026-03-24T16:01:26.971848+00:00",
+      "message": "selected_scroll_container: review_count=19 scroll_height=16292 class=m6QErb DxyBCb kA9KIf dS8AEf XiKgde "
+    },
+    {
+      "time": "2026-03-24T16:02:40.187321+00:00",
+      "message": "round=5 strategy=baseline visible_cards=19 collected=22 new_in_round=0 last_review_id=ChZDSUhNMG9nS0VJQ0FnSUNPajZhcWVBEAE scroll_top=13474 scroll_height=16292 client_height=602"
+    },
+    {
+      "time": "2026-03-24T16:02:44.470379+00:00",
+      "message": "batch_loaded: reason=scroll_height_increase visible_cards=19 new_review_ids=0 scroll_height=16595"
+    },
+    {
+      "time": "2026-03-24T16:02:49.846336+00:00",
+      "message": "selected_scroll_container: review_count=19 scroll_height=16595 class=m6QErb DxyBCb kA9KIf dS8AEf XiKgde "
+    },
+    {
+      "time": "2026-03-24T16:03:56.966312+00:00",
+      "message": "round=6 strategy=baseline visible_cards=19 collected=22 new_in_round=0 last_review_id=ChZDSUhNMG9nS0VJQ0FnSUNPajZhcWVBEAE scroll_top=14859 scroll_height=16595 client_height=602"
+    }
+  ],
+  "review_entry_candidates": [],
+  "round_logs": [
+    {
+      "round": 1,
+      "strategy_name": "baseline",
+      "visible_cards": 8,
+      "collected": 8,
+      "new_in_round": 8,
+      "new_cards_detected": false,
+      "last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURmamRta2pRRRAB",
+      "scroll_metrics": {
+        "scroll_top": 0,
+        "scroll_height": 5222,
+        "client_height": 601
+      },
+      "stop_reason": null,
+      "wait_result": {
+        "loaded": false,
+        "visible_count": 8,
+        "scroll_height": 5222,
+        "last_card_changed": false,
+        "reason": "stable_timeout",
+        "known_review_ids_after": [
+          "ChZDSUhNMG9nS0VJQ0FnSURiX1oyN1h3EAE",
+          "ChZDSUhNMG9nS0VJQ0FnSURmOTlUWEdBEAE",
+          "ChdDSUhNMG9nS0VJQ0FnSUR1NWV6STl3RRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSUREdjZtTW93RRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURkM2NpZzdRRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURmamRta2pRRRAB",
+          "Ci9DQUlRQUNvZENodHljRjlvT2t3NWFqUXhSbFZFWlZSc1pWRkdRMVIzU2xCaGNsRRAB",
+          "Ci9DQUlRQUNvZENodHljRjlvT2twSVUyOTBiVk5IYzFKTWVWVXhaVlZ1TnpGVGNtYxAB"
+        ],
+        "new_review_ids_detected": [],
+        "spinner_seen": false,
+        "mutation_seen": false,
+        "metrics": {
+          "scroll_top": 1080,
+          "scroll_height": 5222,
+          "client_height": 601
+        }
+      },
+      "container_signature": "class=m6QErb DxyBCb kA9KIf dS8AEf XiKgde ||role=||aria=",
+      "container_review_count": 8,
+      "known_review_id_count_before": 8,
+      "known_review_id_count_after": 8,
+      "new_review_ids_detected": [],
+      "spinner_seen": false,
+      "mutation_seen": false,
+      "batch_loaded_reason": "stable_timeout",
+      "panel_focus_succeeded": true,
+      "interaction_verified": true,
+      "panel_scroll_response_detected": true,
+      "outer_page_scroll_detected": false,
+      "map_view_interference_detected": false,
+      "panel_interaction_mode": "js_scroll"
+    },
+    {
+      "round": 2,
+      "strategy_name": "baseline",
+      "visible_cards": 8,
+      "collected": 8,
+      "new_in_round": 0,
+      "new_cards_detected": true,
+      "last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURmamRta2pRRRAB",
+      "scroll_metrics": {
+        "scroll_top": 1080,
+        "scroll_height": 5222,
+        "client_height": 601
+      },
+      "stop_reason": null,
+      "wait_result": {
+        "loaded": true,
+        "visible_count": 10,
+        "scroll_height": 7712,
+        "last_card_changed": true,
+        "reason": "new_review_ids",
+        "known_review_ids_after": [
+          "ChZDSUhNMG9nS0VJQ0FnSUNHLUlmTUNREAE",
+          "ChZDSUhNMG9nS0VJQ0FnSUNmNjlUaFp3EAE",
+          "ChZDSUhNMG9nS0VJQ0FnSURiX1oyN1h3EAE",
+          "ChZDSUhNMG9nS0VJQ0FnSURmOTlUWEdBEAE",
+          "ChdDSUhNMG9nS0VJQ0FnSUMzN0xPQ3VRRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSUNUbTRlbDVBRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSUREdjZtTW93RRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURWNnU3eV9RRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURmamRta2pRRRAB",
+          "Ci9DQUlRQUNvZENodHljRjlvT2twSVUyOTBiVk5IYzFKTWVWVXhaVlZ1TnpGVGNtYxAB"
+        ],
+        "new_review_ids_detected": [
+          "ChZDSUhNMG9nS0VJQ0FnSUNHLUlmTUNREAE",
+          "ChZDSUhNMG9nS0VJQ0FnSUNmNjlUaFp3EAE",
+          "ChdDSUhNMG9nS0VJQ0FnSUMzN0xPQ3VRRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSUNUbTRlbDVBRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURWNnU3eV9RRRAB"
+        ],
+        "spinner_seen": false,
+        "mutation_seen": true,
+        "metrics": {
+          "scroll_top": 840,
+          "scroll_height": 7712,
+          "client_height": 602
+        }
+      },
+      "container_signature": "class=m6QErb DxyBCb kA9KIf dS8AEf XiKgde ||role=||aria=",
+      "container_review_count": 8,
+      "known_review_id_count_before": 8,
+      "known_review_id_count_after": 10,
+      "new_review_ids_detected": [
+        "ChZDSUhNMG9nS0VJQ0FnSUNHLUlmTUNREAE",
+        "ChZDSUhNMG9nS0VJQ0FnSUNmNjlUaFp3EAE",
+        "ChdDSUhNMG9nS0VJQ0FnSUMzN0xPQ3VRRRAB",
+        "ChdDSUhNMG9nS0VJQ0FnSUNUbTRlbDVBRRAB",
+        "ChdDSUhNMG9nS0VJQ0FnSURWNnU3eV9RRRAB"
+      ],
+      "spinner_seen": false,
+      "mutation_seen": true,
+      "batch_loaded_reason": "new_review_ids",
+      "panel_focus_succeeded": true,
+      "interaction_verified": false,
+      "panel_scroll_response_detected": false,
+      "outer_page_scroll_detected": false,
+      "map_view_interference_detected": false,
+      "panel_interaction_mode": "js_scroll"
+    },
+    {
+      "round": 3,
+      "strategy_name": "baseline",
+      "visible_cards": 19,
+      "collected": 22,
+      "new_in_round": 14,
+      "new_cards_detected": false,
+      "last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNPajZhcWVBEAE",
+      "scroll_metrics": {
+        "scroll_top": 11310,
+        "scroll_height": 16292,
+        "client_height": 602
+      },
+      "stop_reason": null,
+      "wait_result": {
+        "loaded": false,
+        "visible_count": 19,
+        "scroll_height": 16292,
+        "last_card_changed": false,
+        "reason": "stable_timeout",
+        "known_review_ids_after": [
+          "ChZDSUhNMG9nS0VJQ0FnSUNDd2VYelNREAE",
+          "ChZDSUhNMG9nS0VJQ0FnSUNHLUlmTUNREAE",
+          "ChZDSUhNMG9nS0VJQ0FnSUNPajZhcWVBEAE",
+          "ChZDSUhNMG9nS0VJQ0FnSUNmNjlUaFp3EAE",
+          "ChZDSUhNMG9nS0VJQ0FnSUNqal9yaWRnEAE",
+          "ChZDSUhNMG9nS0VJQ0FnSURiX1oyN1h3EAE",
+          "ChZDSUhNMG9nS0VJQ0FnSURmOTlUWEdBEAE",
+          "ChdDSUhNMG9nS0VJQ0FnSUMzN0xPQ3VRRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSUNDODd1VjJRRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSUNUbTRlbDVBRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSUREdjZtTW93RRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURLdHZQTjVRRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURNLWUyU2hBRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURWNnU3eV9RRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURYeTRYeTVnRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURkbU15eHJnRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURmamRta2pRRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnTUNRaUtmSmtRRRAB",
+          "Ci9DQUlRQUNvZENodHljRjlvT2twSVUyOTBiVk5IYzFKTWVWVXhaVlZ1TnpGVGNtYxAB"
+        ],
+        "new_review_ids_detected": [],
+        "spinner_seen": false,
+        "mutation_seen": false,
+        "metrics": {
+          "scroll_top": 12392,
+          "scroll_height": 16292,
+          "client_height": 602
+        }
+      },
+      "container_signature": "class=m6QErb DxyBCb kA9KIf dS8AEf XiKgde ||role=||aria=",
+      "container_review_count": 19,
+      "known_review_id_count_before": 19,
+      "known_review_id_count_after": 19,
+      "new_review_ids_detected": [],
+      "spinner_seen": false,
+      "mutation_seen": false,
+      "batch_loaded_reason": "stable_timeout",
+      "panel_focus_succeeded": true,
+      "interaction_verified": true,
+      "panel_scroll_response_detected": true,
+      "outer_page_scroll_detected": false,
+      "map_view_interference_detected": false,
+      "panel_interaction_mode": "js_scroll"
+    },
+    {
+      "round": 4,
+      "strategy_name": "baseline",
+      "visible_cards": 19,
+      "collected": 22,
+      "new_in_round": 0,
+      "new_cards_detected": false,
+      "last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNPajZhcWVBEAE",
+      "scroll_metrics": {
+        "scroll_top": 12392,
+        "scroll_height": 16292,
+        "client_height": 602
+      },
+      "stop_reason": null,
+      "wait_result": {
+        "loaded": false,
+        "visible_count": 19,
+        "scroll_height": 16292,
+        "last_card_changed": false,
+        "reason": "stable_timeout",
+        "known_review_ids_after": [
+          "ChZDSUhNMG9nS0VJQ0FnSUNDd2VYelNREAE",
+          "ChZDSUhNMG9nS0VJQ0FnSUNHLUlmTUNREAE",
+          "ChZDSUhNMG9nS0VJQ0FnSUNPajZhcWVBEAE",
+          "ChZDSUhNMG9nS0VJQ0FnSUNmNjlUaFp3EAE",
+          "ChZDSUhNMG9nS0VJQ0FnSUNqal9yaWRnEAE",
+          "ChZDSUhNMG9nS0VJQ0FnSURiX1oyN1h3EAE",
+          "ChZDSUhNMG9nS0VJQ0FnSURmOTlUWEdBEAE",
+          "ChdDSUhNMG9nS0VJQ0FnSUMzN0xPQ3VRRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSUNDODd1VjJRRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSUNUbTRlbDVBRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSUREdjZtTW93RRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURLdHZQTjVRRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURNLWUyU2hBRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURWNnU3eV9RRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURYeTRYeTVnRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURkbU15eHJnRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURmamRta2pRRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnTUNRaUtmSmtRRRAB",
+          "Ci9DQUlRQUNvZENodHljRjlvT2twSVUyOTBiVk5IYzFKTWVWVXhaVlZ1TnpGVGNtYxAB"
+        ],
+        "new_review_ids_detected": [],
+        "spinner_seen": false,
+        "mutation_seen": false,
+        "metrics": {
+          "scroll_top": 13474,
+          "scroll_height": 16292,
+          "client_height": 602
+        }
+      },
+      "container_signature": "class=m6QErb DxyBCb kA9KIf dS8AEf XiKgde ||role=||aria=",
+      "container_review_count": 19,
+      "known_review_id_count_before": 19,
+      "known_review_id_count_after": 19,
+      "new_review_ids_detected": [],
+      "spinner_seen": false,
+      "mutation_seen": false,
+      "batch_loaded_reason": "stable_timeout",
+      "panel_focus_succeeded": true,
+      "interaction_verified": true,
+      "panel_scroll_response_detected": true,
+      "outer_page_scroll_detected": false,
+      "map_view_interference_detected": false,
+      "panel_interaction_mode": "js_scroll"
+    },
+    {
+      "round": 5,
+      "strategy_name": "baseline",
+      "visible_cards": 19,
+      "collected": 22,
+      "new_in_round": 0,
+      "new_cards_detected": true,
+      "last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNPajZhcWVBEAE",
+      "scroll_metrics": {
+        "scroll_top": 13474,
+        "scroll_height": 16292,
+        "client_height": 602
+      },
+      "stop_reason": null,
+      "wait_result": {
+        "loaded": true,
+        "visible_count": 19,
+        "scroll_height": 16595,
+        "last_card_changed": false,
+        "reason": "scroll_height_increase",
+        "known_review_ids_after": [
+          "ChZDSUhNMG9nS0VJQ0FnSUNDd2VYelNREAE",
+          "ChZDSUhNMG9nS0VJQ0FnSUNHLUlmTUNREAE",
+          "ChZDSUhNMG9nS0VJQ0FnSUNPajZhcWVBEAE",
+          "ChZDSUhNMG9nS0VJQ0FnSUNmNjlUaFp3EAE",
+          "ChZDSUhNMG9nS0VJQ0FnSUNqal9yaWRnEAE",
+          "ChZDSUhNMG9nS0VJQ0FnSURiX1oyN1h3EAE",
+          "ChZDSUhNMG9nS0VJQ0FnSURmOTlUWEdBEAE",
+          "ChdDSUhNMG9nS0VJQ0FnSUMzN0xPQ3VRRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSUNDODd1VjJRRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSUNUbTRlbDVBRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSUREdjZtTW93RRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURLdHZQTjVRRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURNLWUyU2hBRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURWNnU3eV9RRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURYeTRYeTVnRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURkbU15eHJnRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnSURmamRta2pRRRAB",
+          "ChdDSUhNMG9nS0VJQ0FnTUNRaUtmSmtRRRAB",
+          "Ci9DQUlRQUNvZENodHljRjlvT2twSVUyOTBiVk5IYzFKTWVWVXhaVlZ1TnpGVGNtYxAB"
+        ],
+        "new_review_ids_detected": [],
+        "spinner_seen": false,
+        "mutation_seen": true,
+        "metrics": {
+          "scroll_top": 14859,
+          "scroll_height": 16595,
+          "client_height": 602
+        }
+      },
+      "container_signature": "class=m6QErb DxyBCb kA9KIf dS8AEf XiKgde ||role=||aria=",
+      "container_review_count": 19,
+      "known_review_id_count_before": 19,
+      "known_review_id_count_after": 19,
+      "new_review_ids_detected": [],
+      "spinner_seen": false,
+      "mutation_seen": true,
+      "batch_loaded_reason": "scroll_height_increase",
+      "panel_focus_succeeded": true,
+      "interaction_verified": true,
+      "panel_scroll_response_detected": true,
+      "outer_page_scroll_detected": false,
+      "map_view_interference_detected": false,
+      "panel_interaction_mode": "js_scroll"
+    }
+  ],
+  "scroll_container_candidates": [
+    {
+      "class_name": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+      "role": "",
+      "aria_label": "",
+      "overflow_y": "auto",
+      "scroll_height": 16595,
+      "client_height": 602,
+      "scroll_top": 14859,
+      "review_count": 19,
+      "score": 1925595
+    }
+  ],
+  "chromedriver_source": "explicit_path",
+  "chromedriver_path": "C:\\Users\\ja983\\Desktop\\社群媒介分析\\w2_google_place_review\\chromedriver.exe",
+  "final_url": "https://www.google.com/maps/place/Rebirth/@25.0213738,121.5303775,17z/data=!4m8!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxOC4xIKXMDSoASAFQAw%3D%3D",
+  "page_title": "Rebirth - Google 地圖",
+  "place_name_detected": "Rebirth",
+  "place_id": "rebirth",
+  "google_place_token": "0x3442a988e919f47d-0xc36d3628b077d501",
+  "existing_review_key_count": 18,
+  "reviews_entry_detected": true,
+  "reviews_entry_mode": "already_open",
+  "selected_scroll_container": {
+    "class_name": "m6QErb DxyBCb kA9KIf dS8AEf XiKgde ",
+    "role": "",
+    "aria_label": "",
+    "scroll_height": 5222,
+    "client_height": 601,
+    "scroll_top": 0,
+    "review_count": 8,
+    "signature": "class=m6QErb DxyBCb kA9KIf dS8AEf XiKgde ||role=||aria=",
+    "interaction_verified": false,
+    "panel_focus_succeeded": true,
+    "panel_scroll_response_detected": false,
+    "outer_page_scroll_detected": false,
+    "map_view_interference_detected": false
+  },
+  "error": "OSError(22, 'Invalid argument')"
+}

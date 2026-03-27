@@ -1,0 +1,74 @@
+[
+  {
+    "model_name": "star_on_overall_sentiment",
+    "scope": "all",
+    "place_id": "all",
+    "n_obs": 868,
+    "r_squared": 0.18112212119500914,
+    "adj_r_squared": 0.18017653472987638,
+    "status": "ok"
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "all",
+    "place_id": "all",
+    "n_obs": 868,
+    "r_squared": 0.14514159960824202,
+    "adj_r_squared": 0.13617455345028662,
+    "status": "ok"
+  },
+  {
+    "model_name": "star_on_overall_sentiment",
+    "scope": "place",
+    "place_id": "rebirth",
+    "n_obs": 360,
+    "r_squared": 0.26436231729554005,
+    "adj_r_squared": 0.2623074634332371,
+    "status": "ok"
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "rebirth",
+    "n_obs": 360,
+    "r_squared": 0.2093069638756926,
+    "adj_r_squared": 0.18897485723249607,
+    "status": "ok"
+  },
+  {
+    "model_name": "star_on_overall_sentiment",
+    "scope": "place",
+    "place_id": "xuekewu",
+    "n_obs": 352,
+    "r_squared": 0.13040534897027356,
+    "adj_r_squared": 0.12792079282447433,
+    "status": "ok"
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "xuekewu",
+    "n_obs": 352,
+    "r_squared": 0.08953700179779733,
+    "adj_r_squared": 0.06557744921352882,
+    "status": "ok"
+  },
+  {
+    "model_name": "star_on_overall_sentiment",
+    "scope": "place",
+    "place_id": "yangtiaozao",
+    "n_obs": 156,
+    "r_squared": 0.122353714881416,
+    "adj_r_squared": 0.11665471302999653,
+    "status": "ok"
+  },
+  {
+    "model_name": "star_on_aspect_sentiments",
+    "scope": "place",
+    "place_id": "yangtiaozao",
+    "n_obs": 156,
+    "r_squared": 0.09525371734940657,
+    "adj_r_squared": 0.03948168622710968,
+    "status": "ok"
+  }
+]

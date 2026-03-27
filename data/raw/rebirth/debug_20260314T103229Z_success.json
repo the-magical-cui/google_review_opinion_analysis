@@ -1,0 +1,75 @@
+{
+  "scrape_run_id": "20260314T103229Z",
+  "target_url": "https://www.google.com/maps/place/Rebirth/@25.0213738,121.5303775,17z/data=!4m8!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D",
+  "headless": false,
+  "events": [
+    {
+      "time": "2026-03-14T10:32:35.300526+00:00",
+      "message": "final_url: https://www.google.com/maps/place/Rebirth/@25.0213738,121.5303775,17z/data=!4m8!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "time": "2026-03-14T10:32:35.300526+00:00",
+      "message": "page_title: Rebirth - Google 地圖"
+    },
+    {
+      "time": "2026-03-14T10:32:35.300526+00:00",
+      "message": "place_name_detected: Rebirth"
+    },
+    {
+      "time": "2026-03-14T10:32:35.300526+00:00",
+      "message": "place_id: rebirth-0x3442a988e919f47d-0xc36d3628b077d501"
+    },
+    {
+      "time": "2026-03-14T10:32:36.175830+00:00",
+      "message": "located_reviews_panel_with_cards:div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde:2"
+    },
+    {
+      "time": "2026-03-14T10:32:36.175830+00:00",
+      "message": "reviews_entry_detected: already_open"
+    },
+    {
+      "time": "2026-03-14T10:32:41.735689+00:00",
+      "message": "round=1 visible_cards=2 collected=2 new_in_round=2 scroll_top=0 scroll_height=5222 client_height=601"
+    },
+    {
+      "time": "2026-03-14T10:32:47.774733+00:00",
+      "message": "round=2 visible_cards=2 collected=2 new_in_round=0 scroll_top=2228 scroll_height=5222 client_height=602"
+    },
+    {
+      "time": "2026-03-14T10:32:53.612153+00:00",
+      "message": "round=3 visible_cards=2 collected=2 new_in_round=0 scroll_top=4654 scroll_height=6054 client_height=602"
+    },
+    {
+      "time": "2026-03-14T10:33:03.532557+00:00",
+      "message": "round=4 visible_cards=3 collected=3 new_in_round=1 scroll_top=5452 scroll_height=12071 client_height=602"
+    },
+    {
+      "time": "2026-03-14T10:33:12.165842+00:00",
+      "message": "round=5 visible_cards=3 collected=3 new_in_round=0 scroll_top=6638 scroll_height=12071 client_height=602"
+    },
+    {
+      "time": "2026-03-14T10:33:19.786777+00:00",
+      "message": "round=6 visible_cards=3 collected=3 new_in_round=0 scroll_top=7883 scroll_height=12071 client_height=602"
+    },
+    {
+      "time": "2026-03-14T10:33:28.862942+00:00",
+      "message": "round=7 visible_cards=3 collected=3 new_in_round=0 scroll_top=8847 scroll_height=12071 client_height=602"
+    },
+    {
+      "time": "2026-03-14T10:33:39.297113+00:00",
+      "message": "round=8 visible_cards=3 collected=3 new_in_round=0 scroll_top=10304 scroll_height=12071 client_height=602"
+    },
+    {
+      "time": "2026-03-14T10:33:39.297113+00:00",
+      "message": "stop_reason: idle_rounds"
+    }
+  ],
+  "review_entry_candidates": [],
+  "final_url": "https://www.google.com/maps/place/Rebirth/@25.0213738,121.5303775,17z/data=!4m8!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D",
+  "page_title": "Rebirth - Google 地圖",
+  "place_name_detected": "Rebirth",
+  "place_id": "rebirth-0x3442a988e919f47d-0xc36d3628b077d501",
+  "existing_review_key_count": 5,
+  "reviews_entry_detected": true,
+  "reviews_entry_mode": "already_open"
+}

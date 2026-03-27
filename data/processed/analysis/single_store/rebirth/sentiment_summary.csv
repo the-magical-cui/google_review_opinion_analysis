@@ -1,0 +1,2 @@
+﻿place_id,review_count,avg_sentiment_score,avg_star_rating,avg_spend_amount,spend_sample_count,avg_google_food_rating,google_food_rating_count,avg_google_service_rating,google_service_rating_count,avg_google_atmosphere_rating,google_atmosphere_rating_count,negative,neutral,positive,positive_ratio,neutral_ratio,negative_ratio
+rebirth,360,1.1222222222222222,4.013888888888889,325.63953488372096,86,4.020618556701031,97,4.25,96,3.9896907216494846,97,38,105,217,0.6027777777777777,0.2916666666666667,0.10555555555555556

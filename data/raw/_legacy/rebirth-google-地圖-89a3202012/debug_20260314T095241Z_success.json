@@ -1,0 +1,76 @@
+{
+  "scrape_run_id": "20260314T095241Z",
+  "target_url": "https://www.google.com/maps/place/Rebirth/@25.0213738,121.5303775,17z/data=!4m8!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D",
+  "headless": false,
+  "events": [
+    {
+      "time": "2026-03-14T09:53:00.343149+00:00",
+      "message": "final_url: https://www.google.com/maps/place/Rebirth/@25.0213738,121.5303775,17z/data=!4m8!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "time": "2026-03-14T09:53:00.344144+00:00",
+      "message": "page_title: Rebirth - Google 地圖"
+    },
+    {
+      "time": "2026-03-14T09:53:00.344144+00:00",
+      "message": "place_name_detected: Rebirth - Google 地圖"
+    },
+    {
+      "time": "2026-03-14T09:53:13.710841+00:00",
+      "message": "selector_hit: aria_review_button=56"
+    },
+    {
+      "time": "2026-03-14T09:53:13.710841+00:00",
+      "message": "selector_hit: text_review_button=9"
+    },
+    {
+      "time": "2026-03-14T09:53:13.710841+00:00",
+      "message": "selector_hit: role_button_review=0"
+    },
+    {
+      "time": "2026-03-14T09:53:13.710841+00:00",
+      "message": "selector_hit: review_count_block=0"
+    },
+    {
+      "time": "2026-03-14T09:53:13.710841+00:00",
+      "message": "selector_hit: main_panel_button=64"
+    },
+    {
+      "time": "2026-03-14T09:53:15.088292+00:00",
+      "message": "located_reviews_panel_with_cards:div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde:8"
+    },
+    {
+      "time": "2026-03-14T09:53:15.088292+00:00",
+      "message": "reviews_entry_detected: already_open"
+    }
+  ],
+  "review_entry_candidates": [],
+  "final_url": "https://www.google.com/maps/place/Rebirth/@25.0213738,121.5303775,17z/data=!4m8!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D",
+  "page_title": "Rebirth - Google 地圖",
+  "place_name_detected": "Rebirth - Google 地圖",
+  "place_id": "rebirth-google-地圖-89a3202012",
+  "review_entry_selector_hits": [
+    {
+      "source": "aria_review_button",
+      "hits": 56
+    },
+    {
+      "source": "text_review_button",
+      "hits": 9
+    },
+    {
+      "source": "role_button_review",
+      "hits": 0
+    },
+    {
+      "source": "review_count_block",
+      "hits": 0
+    },
+    {
+      "source": "main_panel_button",
+      "hits": 64
+    }
+  ],
+  "reviews_entry_detected": true,
+  "reviews_entry_mode": "already_open"
+}

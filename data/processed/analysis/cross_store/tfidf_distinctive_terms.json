@@ -1,0 +1,422 @@
+[
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "餐點",
+    "tfidf_score": 0.6014701983904686,
+    "rank": 1
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "服務",
+    "tfidf_score": 0.35549078952489876,
+    "rank": 2
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "好吃",
+    "tfidf_score": 0.2611425231107076,
+    "rank": 3
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "氣氛",
+    "tfidf_score": 0.21396838990361206,
+    "rank": 4
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "晚餐",
+    "tfidf_score": 0.1550007233947426,
+    "rank": 5
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "內用",
+    "tfidf_score": 0.15163114245137863,
+    "rank": 6
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "食物",
+    "tfidf_score": 0.11498214776979099,
+    "rank": 7
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "環境",
+    "tfidf_score": 0.11456575207437496,
+    "rank": 8
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "咖啡",
+    "tfidf_score": 0.11456575207437496,
+    "rank": 9
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "店員",
+    "tfidf_score": 0.11288096160269298,
+    "rank": 10
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "料理",
+    "tfidf_score": 0.09097868547082717,
+    "rank": 11
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "飲料",
+    "tfidf_score": 0.09097868547082717,
+    "rank": 12
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "創意",
+    "tfidf_score": 0.08272534887191578,
+    "rank": 13
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "感覺",
+    "tfidf_score": 0.0775003616973713,
+    "rank": 14
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "羊肉",
+    "tfidf_score": 0.07416755416102795,
+    "rank": 15
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "時間",
+    "tfidf_score": 0.07413078075400734,
+    "rank": 16
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "建議",
+    "tfidf_score": 0.07244599028232535,
+    "rank": 17
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "味道",
+    "tfidf_score": 0.06907640933896138,
+    "rank": 18
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "肉桂",
+    "tfidf_score": 0.06291476010045167,
+    "rank": 19
+  },
+  {
+    "place_id": "rebirth",
+    "place_name": "Rebirth",
+    "term": "漫畫",
+    "tfidf_score": 0.06275716121317748,
+    "rank": 20
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "餐點",
+    "tfidf_score": 0.48891100175282054,
+    "rank": 1
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "咖啡",
+    "tfidf_score": 0.39920256106422963,
+    "rank": 2
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "服務",
+    "tfidf_score": 0.35210562970271936,
+    "rank": 3
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "氣氛",
+    "tfidf_score": 0.28706701020349096,
+    "rank": 4
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "爵士",
+    "tfidf_score": 0.16707855276674846,
+    "rank": 5
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "內用",
+    "tfidf_score": 0.1569897712050341,
+    "rank": 6
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "飲料",
+    "tfidf_score": 0.1412907940845307,
+    "rank": 7
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "適合",
+    "tfidf_score": 0.10540741780909434,
+    "rank": 8
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "好喝",
+    "tfidf_score": 0.10316470679187956,
+    "rank": 9
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "喜歡",
+    "tfidf_score": 0.10092199577466479,
+    "rank": 10
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "不錯",
+    "tfidf_score": 0.09643657374023525,
+    "rank": 11
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "氛圍",
+    "tfidf_score": 0.08522301865416138,
+    "rank": 12
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "朋友",
+    "tfidf_score": 0.08298030763694661,
+    "rank": 13
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "地方",
+    "tfidf_score": 0.08298030763694661,
+    "rank": 14
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "店內",
+    "tfidf_score": 0.08298030763694661,
+    "rank": 15
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "咖啡豆",
+    "tfidf_score": 0.07974203654776633,
+    "rank": 16
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "音樂",
+    "tfidf_score": 0.07625217458530228,
+    "rank": 17
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "老店",
+    "tfidf_score": 0.07594479671215841,
+    "rank": 18
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "老派",
+    "tfidf_score": 0.07214755687655047,
+    "rank": 19
+  },
+  {
+    "place_id": "xuekewu",
+    "place_name": "雪可屋",
+    "term": "炸豆腐",
+    "tfidf_score": 0.07214755687655047,
+    "rank": 20
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "餐點",
+    "tfidf_score": 0.5241726866419281,
+    "rank": 1
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "服務",
+    "tfidf_score": 0.5158524852666594,
+    "rank": 2
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "氣氛",
+    "tfidf_score": 0.39520956532526325,
+    "rank": 3
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "咖啡",
+    "tfidf_score": 0.2163252357569862,
+    "rank": 4
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "內用",
+    "tfidf_score": 0.19968483300644882,
+    "rank": 5
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "音樂",
+    "tfidf_score": 0.16224392681773966,
+    "rank": 6
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "提拉米蘇",
+    "tfidf_score": 0.1285652898014659,
+    "rank": 7
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "好喝",
+    "tfidf_score": 0.0915222151279557,
+    "rank": 8
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "好吃",
+    "tfidf_score": 0.08736211444032135,
+    "rank": 9
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "地方",
+    "tfidf_score": 0.07904191306505265,
+    "rank": 10
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "適合",
+    "tfidf_score": 0.0748818123774183,
+    "rank": 11
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "跳蚤",
+    "tfidf_score": 0.0704366275011359,
+    "rank": 12
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "風格",
+    "tfidf_score": 0.0665616110021496,
+    "rank": 13
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "不錯",
+    "tfidf_score": 0.062401510314515254,
+    "rank": 14
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "店員",
+    "tfidf_score": 0.0582414096268809,
+    "rank": 15
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "喜歡",
+    "tfidf_score": 0.0582414096268809,
+    "rank": 16
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "座位",
+    "tfidf_score": 0.05408130893924655,
+    "rank": 17
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "朋友",
+    "tfidf_score": 0.05408130893924655,
+    "rank": 18
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "吵雜",
+    "tfidf_score": 0.05408130893924655,
+    "rank": 19
+  },
+  {
+    "place_id": "yangtiaozao",
+    "place_name": "羊跳蚤",
+    "term": "這裡",
+    "tfidf_score": 0.049921208251612205,
+    "rank": 20
+  }
+]

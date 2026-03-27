@@ -1,0 +1,908 @@
+{
+  "framework": "playwright",
+  "entry_mode": "attach_existing_reviews_page",
+  "target_url": null,
+  "search_query": null,
+  "place_name_hint": "雪可屋",
+  "profile_dir": "data\\playwright\\profile\\manual_google_maps",
+  "manual_handoff_expected": true,
+  "manual_ready_timeout": 180,
+  "expect_reviews_tab": true,
+  "verified_scroll_selector": "div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde",
+  "review_card_selector": "[data-review-id]",
+  "events": [
+    {
+      "time": "2026-03-26T02:07:41.453122+00:00",
+      "message": "browser_launch:persistent_system_chrome_profile"
+    },
+    {
+      "time": "2026-03-26T02:07:42.350468+00:00",
+      "message": "manual_handoff_started"
+    },
+    {
+      "time": "2026-03-26T02:07:45.409380+00:00",
+      "message": "manual_handoff_opened_maps_home"
+    },
+    {
+      "time": "2026-03-26T02:07:49.461435+00:00",
+      "message": "manual_handoff_completed"
+    },
+    {
+      "time": "2026-03-26T02:07:52.952669+00:00",
+      "message": "expected_reviews_tab_but_pane_missing"
+    },
+    {
+      "time": "2026-03-26T02:07:52.952669+00:00",
+      "message": "reviews_context_not_found_before_tab_click"
+    },
+    {
+      "time": "2026-03-26T02:07:56.029078+00:00",
+      "message": "reviews_tab_clicked:hh2c6_review_tab"
+    },
+    {
+      "time": "2026-03-26T02:07:56.085065+00:00",
+      "message": "reviews_entry_opened_by:hh2c6_review_tab"
+    },
+    {
+      "time": "2026-03-26T02:07:56.529536+00:00",
+      "message": "playwright_expanded_more_buttons:8"
+    },
+    {
+      "time": "2026-03-26T02:07:58.332252+00:00",
+      "message": "initial_cards_collected:10"
+    }
+  ],
+  "strategy_results": {},
+  "tab_candidates": [
+    {
+      "source": "hh2c6_review_tab",
+      "text": "評論",
+      "aria_label": "對「雪可屋」的評論",
+      "role": "tab",
+      "class_name": "hh2c6 G7m0Af",
+      "data_tab_index": "2",
+      "visible": true,
+      "score": 18
+    },
+    {
+      "source": "generic_role_tab",
+      "text": "評論",
+      "aria_label": "對「雪可屋」的評論",
+      "role": "tab",
+      "class_name": "hh2c6 G7m0Af",
+      "data_tab_index": "2",
+      "visible": true,
+      "score": 18
+    },
+    {
+      "source": "hh2c6_review_tab",
+      "text": "總覽",
+      "aria_label": "「雪可屋」總覽",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "0",
+      "visible": true,
+      "score": 6
+    },
+    {
+      "source": "hh2c6_review_tab",
+      "text": "菜單",
+      "aria_label": "菜單",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "1",
+      "visible": true,
+      "score": 6
+    },
+    {
+      "source": "hh2c6_review_tab",
+      "text": "簡介",
+      "aria_label": "雪可屋簡介",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "3",
+      "visible": true,
+      "score": 6
+    },
+    {
+      "source": "generic_role_tab",
+      "text": "總覽",
+      "aria_label": "「雪可屋」總覽",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "0",
+      "visible": true,
+      "score": 6
+    },
+    {
+      "source": "generic_role_tab",
+      "text": "菜單",
+      "aria_label": "菜單",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "1",
+      "visible": true,
+      "score": 6
+    },
+    {
+      "source": "generic_role_tab",
+      "text": "簡介",
+      "aria_label": "雪可屋簡介",
+      "role": "tab",
+      "class_name": "hh2c6 ",
+      "data_tab_index": "3",
+      "visible": true,
+      "score": 6
+    }
+  ],
+  "place_id": "xuekewu",
+  "place_name": "雪可屋",
+  "current_page_url_before_probe": "https://www.google.com/maps/place/%E9%9B%AA%E5%8F%AF%E5%B1%8B/@25.0196006,121.5298194,17z/data=!3m1!4b1!4m6!3m5!1s0x3442a98969f98ae7:0x775927aa7e75fc48!8m2!3d25.0196006!4d121.5323943!16s%2Fg%2F1tdhbqk2?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+  "current_page_title_before_probe": "雪可屋 - Google 地圖",
+  "pre_entry_screenshot": "data\\playwright\\xuekewu\\runs\\debug_20260326T020740Z_pre_entry.png",
+  "manual_reviews_tab_already_open": false,
+  "tab_candidate_count": 8,
+  "selected_review_tab_candidate": {
+    "source": "hh2c6_review_tab",
+    "text": "評論",
+    "aria_label": "對「雪可屋」的評論",
+    "role": "tab",
+    "class_name": "hh2c6 G7m0Af",
+    "data_tab_index": "2",
+    "visible": true,
+    "score": 18
+  },
+  "clicked_review_tab": true,
+  "reviews_entry_mode": "clicked:hh2c6_review_tab",
+  "pane_found": true,
+  "entry_verdict": "entered_full_review_list",
+  "initial_review_card_count": 110,
+  "pane_selector_hit": "div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde",
+  "source_url": "https://www.google.com/maps/place/%E9%9B%AA%E5%8F%AF%E5%B1%8B/@25.0196006,121.5298194,17z/data=!4m8!3m7!1s0x3442a98969f98ae7:0x775927aa7e75fc48!8m2!3d25.0196006!4d121.5323943!9m1!1b1!16s%2Fg%2F1tdhbqk2?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+  "google_place_token": "0x3442a98969f98ae7-0x775927aa7e75fc48",
+  "round_logs": [
+    {
+      "round_index": 1,
+      "before_review_card_count": 102,
+      "before_scroll_height": 10504,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURPNmUtVWdnRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 205,
+          "after_scroll_height": 20187,
+          "after_scroll_top": 9785,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnTURRa3ZTQy1RRRAB"
+        }
+      ],
+      "records_collected_total": 20,
+      "growth_detected": true
+    },
+    {
+      "round_index": 2,
+      "before_review_card_count": 205,
+      "before_scroll_height": 20187,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnTURRa3ZTQy1RRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 310,
+          "after_scroll_height": 28213,
+          "after_scroll_top": 19467,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNLbHJtVWlBRRAB"
+        }
+      ],
+      "records_collected_total": 30,
+      "growth_detected": true
+    },
+    {
+      "round_index": 3,
+      "before_review_card_count": 310,
+      "before_scroll_height": 28213,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNLbHJtVWlBRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 409,
+          "after_scroll_height": 35145,
+          "after_scroll_top": 27492,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnTUNJM09tTG5nRRAB"
+        }
+      ],
+      "records_collected_total": 40,
+      "growth_detected": true
+    },
+    {
+      "round_index": 4,
+      "before_review_card_count": 409,
+      "before_scroll_height": 35145,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnTUNJM09tTG5nRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 504,
+          "after_scroll_height": 41581,
+          "after_scroll_top": 34424,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURtNC1INFFnEAE"
+        }
+      ],
+      "records_collected_total": 50,
+      "growth_detected": true
+    },
+    {
+      "round_index": 5,
+      "before_review_card_count": 504,
+      "before_scroll_height": 41581,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURtNC1INFFnEAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 602,
+          "after_scroll_height": 48207,
+          "after_scroll_top": 40860,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNDck5LMFJ3EAE"
+        }
+      ],
+      "records_collected_total": 60,
+      "growth_detected": true
+    },
+    {
+      "round_index": 6,
+      "before_review_card_count": 602,
+      "before_scroll_height": 48207,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNDck5LMFJ3EAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 686,
+          "after_scroll_height": 55295,
+          "after_scroll_top": 47487,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNSMXNMZXBBRRAB"
+        }
+      ],
+      "records_collected_total": 70,
+      "growth_detected": true
+    },
+    {
+      "round_index": 7,
+      "before_review_card_count": 686,
+      "before_scroll_height": 55295,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNSMXNMZXBBRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 774,
+          "after_scroll_height": 61616,
+          "after_scroll_top": 54575,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNZeExfLTdBRRAB"
+        }
+      ],
+      "records_collected_total": 80,
+      "growth_detected": true
+    },
+    {
+      "round_index": 8,
+      "before_review_card_count": 774,
+      "before_scroll_height": 61616,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNZeExfLTdBRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 859,
+          "after_scroll_height": 67577,
+          "after_scroll_top": 60896,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURjMWZ2YXVBRRAB"
+        }
+      ],
+      "records_collected_total": 90,
+      "growth_detected": true
+    },
+    {
+      "round_index": 9,
+      "before_review_card_count": 859,
+      "before_scroll_height": 67577,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURjMWZ2YXVBRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 944,
+          "after_scroll_height": 73692,
+          "after_scroll_top": 66856,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUM2ell2R1FBEAE"
+        }
+      ],
+      "records_collected_total": 100,
+      "growth_detected": true
+    },
+    {
+      "round_index": 10,
+      "before_review_card_count": 944,
+      "before_scroll_height": 73692,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUM2ell2R1FBEAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1026,
+          "after_scroll_height": 79918,
+          "after_scroll_top": 72972,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURYZzgzNmpnRRAB"
+        }
+      ],
+      "records_collected_total": 110,
+      "growth_detected": true
+    },
+    {
+      "round_index": 11,
+      "before_review_card_count": 1026,
+      "before_scroll_height": 79918,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURYZzgzNmpnRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1101,
+          "after_scroll_height": 84531,
+          "after_scroll_top": 79198,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUN6LU1lV3ZnRRAB"
+        }
+      ],
+      "records_collected_total": 120,
+      "growth_detected": true
+    },
+    {
+      "round_index": 12,
+      "before_review_card_count": 1101,
+      "before_scroll_height": 84531,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUN6LU1lV3ZnRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1183,
+          "after_scroll_height": 89641,
+          "after_scroll_top": 83811,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURTdDdfVHBRRRAB"
+        }
+      ],
+      "records_collected_total": 130,
+      "growth_detected": true
+    },
+    {
+      "round_index": 13,
+      "before_review_card_count": 1183,
+      "before_scroll_height": 89641,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURTdDdfVHBRRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1261,
+          "after_scroll_height": 94348,
+          "after_scroll_top": 88921,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNpa3EtektnEAE"
+        }
+      ],
+      "records_collected_total": 140,
+      "growth_detected": true
+    },
+    {
+      "round_index": 14,
+      "before_review_card_count": 1261,
+      "before_scroll_height": 94348,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNpa3EtektnEAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1336,
+          "after_scroll_height": 98760,
+          "after_scroll_top": 93627,
+          "after_last_review_id": "ChdDSUhNMG9nS0VLWDAtSS11Mk1tRTV3RRAB"
+        }
+      ],
+      "records_collected_total": 150,
+      "growth_detected": true
+    },
+    {
+      "round_index": 15,
+      "before_review_card_count": 1336,
+      "before_scroll_height": 98760,
+      "before_last_review_id": "ChdDSUhNMG9nS0VLWDAtSS11Mk1tRTV3RRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1408,
+          "after_scroll_height": 102614,
+          "after_scroll_top": 97799,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNnbF9IWk53EAE"
+        }
+      ],
+      "records_collected_total": 160,
+      "growth_detected": true
+    },
+    {
+      "round_index": 16,
+      "before_review_card_count": 1408,
+      "before_scroll_height": 102614,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNnbF9IWk53EAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1482,
+          "after_scroll_height": 105847,
+          "after_scroll_top": 101893,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURXOHVqcDJnRRAB"
+        }
+      ],
+      "records_collected_total": 170,
+      "growth_detected": true
+    },
+    {
+      "round_index": 17,
+      "before_review_card_count": 1482,
+      "before_scroll_height": 105847,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURXOHVqcDJnRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1558,
+          "after_scroll_height": 109123,
+          "after_scroll_top": 105127,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNwbE1paEh3EAE"
+        }
+      ],
+      "records_collected_total": 180,
+      "growth_detected": true
+    },
+    {
+      "round_index": 18,
+      "before_review_card_count": 1558,
+      "before_scroll_height": 109123,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNwbE1paEh3EAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1629,
+          "after_scroll_height": 112049,
+          "after_scroll_top": 108403,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURRbmFERzNnRRAB"
+        }
+      ],
+      "records_collected_total": 190,
+      "growth_detected": true
+    },
+    {
+      "round_index": 19,
+      "before_review_card_count": 1629,
+      "before_scroll_height": 112049,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURRbmFERzNnRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1700,
+          "after_scroll_height": 114875,
+          "after_scroll_top": 111328,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUN5eW9MS2xnRRAB"
+        }
+      ],
+      "records_collected_total": 200,
+      "growth_detected": true
+    },
+    {
+      "round_index": 20,
+      "before_review_card_count": 1700,
+      "before_scroll_height": 114875,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUN5eW9MS2xnRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1775,
+          "after_scroll_height": 118015,
+          "after_scroll_top": 114155,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURnLVBtYUpBEAE"
+        }
+      ],
+      "records_collected_total": 210,
+      "growth_detected": true
+    },
+    {
+      "round_index": 21,
+      "before_review_card_count": 1775,
+      "before_scroll_height": 118015,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURnLVBtYUpBEAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1845,
+          "after_scroll_height": 120592,
+          "after_scroll_top": 117295,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURLdkx5R0xnEAE"
+        }
+      ],
+      "records_collected_total": 220,
+      "growth_detected": true
+    },
+    {
+      "round_index": 22,
+      "before_review_card_count": 1845,
+      "before_scroll_height": 120592,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURLdkx5R0xnEAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1917,
+          "after_scroll_height": 123411,
+          "after_scroll_top": 119872,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNBbi1QSkd3EAE"
+        }
+      ],
+      "records_collected_total": 230,
+      "growth_detected": true
+    },
+    {
+      "round_index": 23,
+      "before_review_card_count": 1917,
+      "before_scroll_height": 123411,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNBbi1QSkd3EAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1994,
+          "after_scroll_height": 126326,
+          "after_scroll_top": 122691,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNpNllIdnJRRRAB"
+        }
+      ],
+      "records_collected_total": 240,
+      "growth_detected": true
+    },
+    {
+      "round_index": 24,
+      "before_review_card_count": 1994,
+      "before_scroll_height": 126326,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNpNllIdnJRRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 2067,
+          "after_scroll_height": 129221,
+          "after_scroll_top": 125606,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURRbTZTNERREAE"
+        }
+      ],
+      "records_collected_total": 250,
+      "growth_detected": true
+    },
+    {
+      "round_index": 25,
+      "before_review_card_count": 2067,
+      "before_scroll_height": 129221,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURRbTZTNERREAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 2141,
+          "after_scroll_height": 131761,
+          "after_scroll_top": 128501,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURNME5pRVVBEAE"
+        }
+      ],
+      "records_collected_total": 260,
+      "growth_detected": true
+    },
+    {
+      "round_index": 26,
+      "before_review_card_count": 2141,
+      "before_scroll_height": 131761,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURNME5pRVVBEAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 2211,
+          "after_scroll_height": 133789,
+          "after_scroll_top": 131040,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURBLXJ6UEl3EAE"
+        }
+      ],
+      "records_collected_total": 270,
+      "growth_detected": true
+    },
+    {
+      "round_index": 27,
+      "before_review_card_count": 2211,
+      "before_scroll_height": 133789,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURBLXJ6UEl3EAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 2281,
+          "after_scroll_height": 135953,
+          "after_scroll_top": 133068,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNBbmVlVnNnRRAB"
+        }
+      ],
+      "records_collected_total": 280,
+      "growth_detected": true
+    },
+    {
+      "round_index": 28,
+      "before_review_card_count": 2281,
+      "before_scroll_height": 135953,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNBbmVlVnNnRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 2352,
+          "after_scroll_height": 138239,
+          "after_scroll_top": 135232,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNzbUp5WGp3RRAB"
+        }
+      ],
+      "records_collected_total": 290,
+      "growth_detected": true
+    },
+    {
+      "round_index": 29,
+      "before_review_card_count": 2352,
+      "before_scroll_height": 138239,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNzbUp5WGp3RRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 2423,
+          "after_scroll_height": 140934,
+          "after_scroll_top": 137279,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUN3dnZyYUtBEAE"
+        }
+      ],
+      "records_collected_total": 300,
+      "growth_detected": true
+    },
+    {
+      "round_index": 30,
+      "before_review_card_count": 2423,
+      "before_scroll_height": 140934,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUN3dnZyYUtBEAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 2493,
+          "after_scroll_height": 143349,
+          "after_scroll_top": 140213,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNRbm9XbC1RRRAB"
+        }
+      ],
+      "records_collected_total": 310,
+      "growth_detected": true
+    },
+    {
+      "round_index": 31,
+      "before_review_card_count": 2493,
+      "before_scroll_height": 143349,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNRbm9XbC1RRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 2564,
+          "after_scroll_height": 145635,
+          "after_scroll_top": 142388,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURRM05HM1B3EAE"
+        }
+      ],
+      "records_collected_total": 320,
+      "growth_detected": true
+    },
+    {
+      "round_index": 32,
+      "before_review_card_count": 2564,
+      "before_scroll_height": 145635,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURRM05HM1B3EAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 2655,
+          "after_scroll_height": 152054,
+          "after_scroll_top": 144915,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURlN0xqNE93EAE"
+        }
+      ],
+      "records_collected_total": 330,
+      "growth_detected": true
+    },
+    {
+      "round_index": 33,
+      "before_review_card_count": 2655,
+      "before_scroll_height": 152054,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURlN0xqNE93EAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 2735,
+          "after_scroll_height": 156070,
+          "after_scroll_top": 151334,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURRaV9QcFR3EAE"
+        }
+      ],
+      "records_collected_total": 340,
+      "growth_detected": true
+    },
+    {
+      "round_index": 34,
+      "before_review_card_count": 2735,
+      "before_scroll_height": 156070,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURRaV9QcFR3EAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 2822,
+          "after_scroll_height": 160273,
+          "after_scroll_top": 155350,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNpMXU2VTVBRRAB"
+        }
+      ],
+      "records_collected_total": 350,
+      "growth_detected": true
+    },
+    {
+      "round_index": 35,
+      "before_review_card_count": 2822,
+      "before_scroll_height": 160273,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNpMXU2VTVBRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 2904,
+          "after_scroll_height": 164830,
+          "after_scroll_top": 159553,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURnOU1QZkdREAE"
+        }
+      ],
+      "records_collected_total": 360,
+      "growth_detected": true
+    }
+  ],
+  "strategy_sequence": [
+    "last_card_into_view",
+    "pane_step_scroll",
+    "mouse_wheel_over_pane"
+  ],
+  "cards_collected_total": 360,
+  "final_review_card_count": 2904,
+  "output_jsonl_path": "data\\playwright\\xuekewu\\runs\\reviews_20260326T020740Z.jsonl"
+}

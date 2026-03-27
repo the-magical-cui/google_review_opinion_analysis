@@ -1,0 +1,42 @@
+{
+  "framework": "playwright",
+  "entry_mode": "search_then_click_place",
+  "target_url": null,
+  "search_query": "Rebirth",
+  "place_name_hint": "Rebirth",
+  "verified_scroll_selector": "div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde",
+  "review_card_selector": "[data-review-id]",
+  "events": [
+    {
+      "time": "2026-03-25T13:08:46.037314+00:00",
+      "message": "browser_launch:system_chrome_channel"
+    },
+    {
+      "time": "2026-03-25T13:08:50.948086+00:00",
+      "message": "page_loaded:maps_home"
+    },
+    {
+      "time": "2026-03-25T13:08:54.701899+00:00",
+      "message": "search_submitted:Rebirth"
+    },
+    {
+      "time": "2026-03-25T13:08:54.765864+00:00",
+      "message": "search_result_candidate_not_found"
+    },
+    {
+      "time": "2026-03-25T13:09:00.079030+00:00",
+      "message": "reviews_context_not_found_before_tab_click"
+    }
+  ],
+  "strategy_results": {},
+  "tab_candidates": [],
+  "search_results_detected": false,
+  "pre_entry_screenshot": "data\\playwright\\rebirth\\runs\\probe_20260325T130844Z_pre_entry.png",
+  "tab_candidate_count": 0,
+  "selected_review_tab_candidate": null,
+  "reviews_entry_mode": "failed",
+  "pane_found": false,
+  "post_tab_screenshot": "data\\playwright\\rebirth\\runs\\probe_20260325T130844Z_post_tab.png",
+  "entry_verdict": "failed_to_enter_reviews_context",
+  "final_stop_reason": "failed_to_enter_reviews_context"
+}

@@ -1,0 +1,37 @@
+{
+  "framework": "playwright",
+  "target_url": "https://www.google.com/maps/place/Rebirth/@25.0214341,121.5304036,17z/data=!4m18!1m9!3m8!1s0x3442a988e919f47d:0xc36d3628b077d501!2sRebirth!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww!3m7!1s0x3442a988e919f47d:0xc36d3628b077d501!8m2!3d25.021369!4d121.5329524!9m1!1b1!16s%2Fg%2F1ptvr89ww?entry=ttu&g_ep=EgoyMDI2MDMxOC4xIKXMDSoASAFQAw%3D%3D",
+  "verified_scroll_selector": "div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde",
+  "review_card_selector": "[data-review-id]",
+  "events": [
+    {
+      "time": "2026-03-25T11:28:52.835709+00:00",
+      "message": "browser_launch:system_chrome_channel"
+    },
+    {
+      "time": "2026-03-25T11:29:19.088996+00:00",
+      "message": "page_loaded"
+    },
+    {
+      "time": "2026-03-25T11:29:24.122545+00:00",
+      "message": "review_intent_direct_failed"
+    },
+    {
+      "time": "2026-03-25T11:29:24.143843+00:00",
+      "message": "tab_fallback_attempted:hh2c6_review_tab:2"
+    },
+    {
+      "time": "2026-03-25T11:29:30.739193+00:00",
+      "message": "tab_fallback_attempted:generic_role_tab:2"
+    },
+    {
+      "time": "2026-03-25T11:29:37.327020+00:00",
+      "message": "tab_fallback_attempted:aria_reviews:1"
+    }
+  ],
+  "strategy_results": {},
+  "reviews_entry_mode": "failed",
+  "pane_found": false,
+  "entry_verdict": "failed_to_enter_reviews_context",
+  "final_stop_reason": "failed_to_enter_reviews_context"
+}

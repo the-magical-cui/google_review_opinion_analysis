@@ -1,0 +1,9 @@
+﻿model_name,scope,place_id,n_obs,r_squared,adj_r_squared,status
+star_on_overall_sentiment,all,all,868,0.18112212119500914,0.18017653472987638,ok
+star_on_aspect_sentiments,all,all,868,0.14514159960824202,0.13617455345028662,ok
+star_on_overall_sentiment,place,rebirth,360,0.26436231729554005,0.2623074634332371,ok
+star_on_aspect_sentiments,place,rebirth,360,0.2093069638756926,0.18897485723249607,ok
+star_on_overall_sentiment,place,xuekewu,352,0.13040534897027356,0.12792079282447433,ok
+star_on_aspect_sentiments,place,xuekewu,352,0.08953700179779733,0.06557744921352882,ok
+star_on_overall_sentiment,place,yangtiaozao,156,0.122353714881416,0.11665471302999653,ok
+star_on_aspect_sentiments,place,yangtiaozao,156,0.09525371734940657,0.03948168622710968,ok
