@@ -663,16 +663,71 @@ def render_sentiment_100_stacked_chart(frame: pd.DataFrame, *, title: str) -> No
     st.altair_chart(chart, use_container_width=True)
 
 
+def _encoding_type_for_series(series: pd.Series) -> str:
+    if pd.api.types.is_numeric_dtype(series):
+        return "Q"
+    if pd.api.types.is_datetime64_any_dtype(series):
+        return "T"
+    return "N"
+
+
+def _tooltip_encodings(frame: pd.DataFrame, columns: list[str]) -> list[alt.Tooltip]:
+    tooltips: list[alt.Tooltip] = []
+    for column in columns:
+        if column not in frame.columns:
+            continue
+        enc_type = _encoding_type_for_series(frame[column])
+        tooltips.append(alt.Tooltip(f"{column}:{enc_type}", title=column))
+    return tooltips
+
+
 def build_simple_bar_chart(frame: pd.DataFrame, *, x: str, y: str, y_title: str, tooltip_cols: list[str], height: int = 240) -> alt.Chart:
-    return alt.Chart(frame).mark_bar().encode(x=alt.X(x, sort=None, title=None), y=alt.Y(y, title=y_title), tooltip=tooltip_cols).properties(height=height)
+    plot_df = frame.copy()
+    x_type = _encoding_type_for_series(plot_df[x])
+    y_type = _encoding_type_for_series(plot_df[y])
+    return (
+        alt.Chart(plot_df)
+        .mark_bar()
+        .encode(
+            x=alt.X(f"{x}:{x_type}", sort=None, title=None),
+            y=alt.Y(f"{y}:{y_type}", title=y_title),
+            tooltip=_tooltip_encodings(plot_df, tooltip_cols),
+        )
+        .properties(height=height)
+    )
 
 
 def build_simple_line_chart(frame: pd.DataFrame, *, x: str, y: str, y_title: str, tooltip_cols: list[str], height: int = 240) -> alt.Chart:
-    return alt.Chart(frame).mark_line(point=True).encode(x=alt.X(x, sort=None, title=None), y=alt.Y(y, title=y_title), tooltip=tooltip_cols).properties(height=height)
+    plot_df = frame.copy()
+    x_type = _encoding_type_for_series(plot_df[x])
+    y_type = _encoding_type_for_series(plot_df[y])
+    return (
+        alt.Chart(plot_df)
+        .mark_line(point=True)
+        .encode(
+            x=alt.X(f"{x}:{x_type}", sort=None, title=None),
+            y=alt.Y(f"{y}:{y_type}", title=y_title),
+            tooltip=_tooltip_encodings(plot_df, tooltip_cols),
+        )
+        .properties(height=height)
+    )
 
 
 def build_multi_line_chart(frame: pd.DataFrame, *, x: str, y: str, color: str, y_title: str, tooltip_cols: list[str], height: int = 260) -> alt.Chart:
-    return alt.Chart(frame).mark_line(point=True).encode(x=alt.X(x, sort=None, title=None), y=alt.Y(y, title=y_title), color=alt.Color(f"{color}:N", title="店家"), tooltip=tooltip_cols).properties(height=height)
+    plot_df = frame.copy()
+    x_type = _encoding_type_for_series(plot_df[x])
+    y_type = _encoding_type_for_series(plot_df[y])
+    return (
+        alt.Chart(plot_df)
+        .mark_line(point=True)
+        .encode(
+            x=alt.X(f"{x}:{x_type}", sort=None, title=None),
+            y=alt.Y(f"{y}:{y_type}", title=y_title),
+            color=alt.Color(f"{color}:N", title="店家"),
+            tooltip=_tooltip_encodings(plot_df, tooltip_cols),
+        )
+        .properties(height=height)
+    )
 
 
 def build_stacked_star_chart(frame: pd.DataFrame, *, x: str, y: str, color: str, title: str | None, x_title: str | None, height: int = 260) -> alt.Chart:

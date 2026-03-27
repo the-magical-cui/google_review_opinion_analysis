@@ -57,3 +57,5 @@
 
 * [20:12] 新增 untime.txt 並將 Streamlit 部署環境固定為 Python 3.12，避免 Streamlit Cloud 使用 Python 3.14 與 Altair 相依組合造成匯入失敗。
 * [20:13] 新增 runtime.txt 並將 Streamlit 部署環境固定為 Python 3.12，避免 Streamlit Cloud 使用 Python 3.14 與 Altair 相依組合造成匯入失敗。
+* [20:21] 將 Altair 基礎 chart builder 改成明確型別標註與保守 tooltip 編碼，降低 Streamlit Cloud 在 sidebar 圖表上的相容性錯誤。
+* [20:29] 將 Altair 相依版本提升為 6.x，避免雲端部署仍以 Python 3.14 建環境時落在 Altair 5 相容性錯誤。
