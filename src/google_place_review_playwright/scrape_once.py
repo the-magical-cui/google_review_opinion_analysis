@@ -168,7 +168,7 @@ class PlaywrightReviewScrapeOnce(PlaywrightProbe):
                 ("mouse_wheel_over_pane", self._strategy_mouse_wheel_over_pane),
             ]:
                 action_result = strategy_func(page, pane)
-                page.wait_for_timeout(1200)
+                page.wait_for_timeout(self.config.round_wait_ms)
                 newly_added = self._collect_visible_cards_into_store(
                     pane=pane,
                     source_url=source_url,
@@ -204,7 +204,7 @@ class PlaywrightReviewScrapeOnce(PlaywrightProbe):
                 stable_rounds = 0
             else:
                 stable_rounds += 1
-                if stable_rounds >= 3:
+                if stable_rounds >= self.config.stable_round_threshold:
                     self._record_event("stop_reason:stable_no_growth")
                     break
 

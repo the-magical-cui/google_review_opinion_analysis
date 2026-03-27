@@ -34,6 +34,8 @@ class PlaywrightProbeConfig:
     profile_dir: Path = Path("data/playwright/profile/manual_google_maps")
     manual_ready_timeout: int = 120
     expect_reviews_tab: bool = False
+    stable_round_threshold: int = 3
+    round_wait_ms: int = 1200
 
 
 @dataclass(slots=True)

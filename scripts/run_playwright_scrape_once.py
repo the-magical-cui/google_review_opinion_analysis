@@ -19,11 +19,13 @@ def parse_args() -> argparse.Namespace:
         "--entry-mode",
         choices=["attach_existing_reviews_page"],
         default="attach_existing_reviews_page",
-        help="入口模式",
+        help="半自動接手模式",
     )
     parser.add_argument("--max-rounds", type=int, default=20, help="最大滾動輪數")
+    parser.add_argument("--stable-round-threshold", type=int, default=3, help="連續幾輪沒有成長才停止")
+    parser.add_argument("--round-wait-ms", type=int, default=1200, help="每個策略後額外等待的毫秒數")
     parser.add_argument("--debug-save-html", action="store_true", help="額外保存 HTML")
-    parser.add_argument("--no-headless", action="store_true", help="使用可見瀏覽器")
+    parser.add_argument("--no-headless", action="store_true", help="用有介面的瀏覽器執行")
     parser.add_argument(
         "--profile-dir",
         default="data/playwright/profile/manual_google_maps",
@@ -33,10 +35,10 @@ def parse_args() -> argparse.Namespace:
         "--manual-ready-timeout",
         type=int,
         default=180,
-        help="等待手動準備評論頁的秒數",
+        help="等待手動切到評論頁的秒數",
     )
-    parser.add_argument("--place-id", default="rebirth", help="輸出的 place_id")
-    parser.add_argument("--place-name", default="Rebirth", help="輸出的 place_name")
+    parser.add_argument("--place-id", default="rebirth", help="專案內部使用的 place_id")
+    parser.add_argument("--place-name", default="Rebirth", help="前端顯示用的 place_name")
     parser.add_argument("--expect-reviews-tab", action="store_true", help="若你已切到評論頁可開啟此旗標")
     return parser.parse_args()
 
@@ -53,6 +55,8 @@ def main() -> int:
         expect_reviews_tab=args.expect_reviews_tab,
         place_name_hint=args.place_name,
         place_slug_override=args.place_id,
+        stable_round_threshold=args.stable_round_threshold,
+        round_wait_ms=args.round_wait_ms,
     )
     result = PlaywrightReviewScrapeOnce(
         config,

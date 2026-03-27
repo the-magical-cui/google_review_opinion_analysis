@@ -1,0 +1,2 @@
+﻿place_id,review_count,avg_sentiment_score,avg_star_rating,avg_spend_amount,spend_sample_count,avg_google_food_rating,google_food_rating_count,avg_google_service_rating,google_service_rating_count,avg_google_atmosphere_rating,google_atmosphere_rating_count,negative,neutral,positive,positive_ratio,neutral_ratio,negative_ratio
+bailemen_jiuguan,132,0.5378787878787878,4.568181818181818,342.1842105263158,19,4.666666666666667,30,4.833333333333333,30,4.870967741935484,31,5,76,51,0.38636363636363635,0.5757575757575758,0.03787878787878788

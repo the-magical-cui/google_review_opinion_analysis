@@ -1,0 +1,825 @@
+{
+  "framework": "playwright",
+  "entry_mode": "attach_existing_reviews_page",
+  "target_url": null,
+  "search_query": null,
+  "place_name_hint": "百樂門酒館",
+  "profile_dir": "data\\playwright\\profile\\manual_google_maps",
+  "manual_handoff_expected": true,
+  "manual_ready_timeout": 180,
+  "expect_reviews_tab": true,
+  "verified_scroll_selector": "div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde",
+  "review_card_selector": "[data-review-id]",
+  "events": [
+    {
+      "time": "2026-03-27T13:32:54.222793+00:00",
+      "message": "browser_launch:persistent_system_chrome_profile"
+    },
+    {
+      "time": "2026-03-27T13:32:55.148291+00:00",
+      "message": "manual_handoff_started"
+    },
+    {
+      "time": "2026-03-27T13:32:58.047827+00:00",
+      "message": "manual_handoff_opened_maps_home"
+    },
+    {
+      "time": "2026-03-27T13:33:04.476086+00:00",
+      "message": "manual_handoff_completed"
+    },
+    {
+      "time": "2026-03-27T13:33:06.742444+00:00",
+      "message": "reviews_entry_detected:direct_pane"
+    },
+    {
+      "time": "2026-03-27T13:33:07.348135+00:00",
+      "message": "playwright_expanded_more_buttons:8"
+    },
+    {
+      "time": "2026-03-27T13:33:09.016460+00:00",
+      "message": "initial_cards_collected:10"
+    },
+    {
+      "time": "2026-03-27T13:46:45.890222+00:00",
+      "message": "stop_reason:stable_no_growth"
+    }
+  ],
+  "strategy_results": {},
+  "tab_candidates": [],
+  "place_id": "bailemen_jiuguan",
+  "place_name": "百樂門酒館",
+  "current_page_url_before_probe": "https://www.google.com/maps/place/%E7%99%BE%E6%A8%82%E9%96%80%E9%85%92%E9%A4%A8/@22.6422844,120.3120139,17z/data=!4m8!3m7!1s0x346e0301e50c90e5:0x38a4d5c3c3f65b43!8m2!3d22.6422844!4d120.3145888!9m1!1b1!16s%2Fg%2F11g0kb_q29?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+  "current_page_title_before_probe": "百樂門酒館 - Google 地圖",
+  "pre_entry_screenshot": "data\\playwright\\bailemen_jiuguan\\runs\\debug_20260327T133236Z_pre_entry.png",
+  "manual_reviews_tab_already_open": true,
+  "reviews_entry_mode": "direct_pane",
+  "pane_found": true,
+  "entry_verdict": "entered_full_review_list",
+  "initial_review_card_count": 104,
+  "pane_selector_hit": "div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde",
+  "source_url": "https://www.google.com/maps/place/%E7%99%BE%E6%A8%82%E9%96%80%E9%85%92%E9%A4%A8/@22.6422844,120.3120139,17z/data=!4m8!3m7!1s0x346e0301e50c90e5:0x38a4d5c3c3f65b43!8m2!3d22.6422844!4d120.3145888!9m1!1b1!16s%2Fg%2F11g0kb_q29?hl=zh-TW&entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D",
+  "google_place_token": "0x346e0301e50c90e5-0x38a4d5c3c3f65b43",
+  "round_logs": [
+    {
+      "round_index": 1,
+      "before_review_card_count": 98,
+      "before_scroll_height": 7094,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUQtMjU2R2VBEAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 175,
+          "after_scroll_height": 11735,
+          "after_scroll_top": 6375,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNCdnZuUVFnEAE"
+        }
+      ],
+      "records_collected_total": 20,
+      "growth_detected": true
+    },
+    {
+      "round_index": 2,
+      "before_review_card_count": 175,
+      "before_scroll_height": 11735,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNCdnZuUVFnEAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 260,
+          "after_scroll_height": 17084,
+          "after_scroll_top": 11014,
+          "after_last_review_id": "ChdDSUhNMG9nS0VMbmc2cXVJczZPcGpnRRAB"
+        }
+      ],
+      "records_collected_total": 30,
+      "growth_detected": true
+    },
+    {
+      "round_index": 3,
+      "before_review_card_count": 260,
+      "before_scroll_height": 17084,
+      "before_last_review_id": "ChdDSUhNMG9nS0VMbmc2cXVJczZPcGpnRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 332,
+          "after_scroll_height": 20181,
+          "after_scroll_top": 16363,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNJcWNpZEh3EAE"
+        }
+      ],
+      "records_collected_total": 40,
+      "growth_detected": true
+    },
+    {
+      "round_index": 4,
+      "before_review_card_count": 332,
+      "before_scroll_height": 20181,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNJcWNpZEh3EAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 404,
+          "after_scroll_height": 22964,
+          "after_scroll_top": 19461,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURtbTV1UkJnEAE"
+        }
+      ],
+      "records_collected_total": 50,
+      "growth_detected": true
+    },
+    {
+      "round_index": 5,
+      "before_review_card_count": 404,
+      "before_scroll_height": 22964,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURtbTV1UkJnEAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 478,
+          "after_scroll_height": 26033,
+          "after_scroll_top": 22243,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURTa3M3cTJnRRAB"
+        }
+      ],
+      "records_collected_total": 60,
+      "growth_detected": true
+    },
+    {
+      "round_index": 6,
+      "before_review_card_count": 478,
+      "before_scroll_height": 26033,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURTa3M3cTJnRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 548,
+          "after_scroll_height": 28258,
+          "after_scroll_top": 25313,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURNeU9pM2hnRRAB"
+        }
+      ],
+      "records_collected_total": 70,
+      "growth_detected": true
+    },
+    {
+      "round_index": 7,
+      "before_review_card_count": 548,
+      "before_scroll_height": 28258,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURNeU9pM2hnRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 619,
+          "after_scroll_height": 30566,
+          "after_scroll_top": 27538,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNZaWNHSXNnRRAB"
+        }
+      ],
+      "records_collected_total": 80,
+      "growth_detected": true
+    },
+    {
+      "round_index": 8,
+      "before_review_card_count": 619,
+      "before_scroll_height": 30566,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNZaWNHSXNnRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 692,
+          "after_scroll_height": 33277,
+          "after_scroll_top": 29845,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURKaS1HTnZBRRAB"
+        }
+      ],
+      "records_collected_total": 90,
+      "growth_detected": true
+    },
+    {
+      "round_index": 9,
+      "before_review_card_count": 692,
+      "before_scroll_height": 33277,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURKaS1HTnZBRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 762,
+          "after_scroll_height": 35559,
+          "after_scroll_top": 32556,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNiX09QVjBRRRAB"
+        }
+      ],
+      "records_collected_total": 100,
+      "growth_detected": true
+    },
+    {
+      "round_index": 10,
+      "before_review_card_count": 762,
+      "before_scroll_height": 35559,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNiX09QVjBRRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 832,
+          "after_scroll_height": 37529,
+          "after_scroll_top": 34838,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNzdWNMWkNnEAE"
+        }
+      ],
+      "records_collected_total": 110,
+      "growth_detected": true
+    },
+    {
+      "round_index": 11,
+      "before_review_card_count": 832,
+      "before_scroll_height": 37529,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNzdWNMWkNnEAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 923,
+          "after_scroll_height": 43648,
+          "after_scroll_top": 36808,
+          "after_last_review_id": "Ci9DQUlRQUNvZENodHljRjlvT214eWVWZFlVbFpzUld4T1dFUXlOV3hqUkVGNWExRRAB"
+        }
+      ],
+      "records_collected_total": 120,
+      "growth_detected": true
+    },
+    {
+      "round_index": 12,
+      "before_review_card_count": 923,
+      "before_scroll_height": 43648,
+      "before_last_review_id": "Ci9DQUlRQUNvZENodHljRjlvT214eWVWZFlVbFpzUld4T1dFUXlOV3hqUkVGNWExRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1005,
+          "after_scroll_height": 47801,
+          "after_scroll_top": 42927,
+          "after_last_review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KaU1sOU5jVU5PUjFaQlEwdFZUV2M1VWpOT1lVRRAB"
+        }
+      ],
+      "records_collected_total": 130,
+      "growth_detected": true
+    },
+    {
+      "round_index": 13,
+      "before_review_card_count": 1005,
+      "before_scroll_height": 47801,
+      "before_last_review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KaU1sOU5jVU5PUjFaQlEwdFZUV2M1VWpOT1lVRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1078,
+          "after_scroll_height": 50713,
+          "after_scroll_top": 47080,
+          "after_last_review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pRdFJVNUJlWGhoZVZoR1ZqZFhaVXc0TUhacFRXYxAB"
+        }
+      ],
+      "records_collected_total": 140,
+      "growth_detected": true
+    },
+    {
+      "round_index": 14,
+      "before_review_card_count": 1078,
+      "before_scroll_height": 50713,
+      "before_last_review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pRdFJVNUJlWGhoZVZoR1ZqZFhaVXc0TUhacFRXYxAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1148,
+          "after_scroll_height": 53597,
+          "after_scroll_top": 49992,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUREbXR5S2hnRRAB"
+        }
+      ],
+      "records_collected_total": 150,
+      "growth_detected": true
+    },
+    {
+      "round_index": 15,
+      "before_review_card_count": 1148,
+      "before_scroll_height": 53597,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUREbXR5S2hnRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1218,
+          "after_scroll_height": 56541,
+          "after_scroll_top": 52876,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNKbzgyeFh3EAE"
+        }
+      ],
+      "records_collected_total": 160,
+      "growth_detected": true
+    },
+    {
+      "round_index": 16,
+      "before_review_card_count": 1218,
+      "before_scroll_height": 56541,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNKbzgyeFh3EAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1278,
+          "after_scroll_height": 58453,
+          "after_scroll_top": 55820,
+          "after_last_review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCaU1uaGhUVVJFWDNkc09ETmpUVGxhWDB4c1NYYxAB"
+        }
+      ],
+      "records_collected_total": 170,
+      "growth_detected": true
+    },
+    {
+      "round_index": 17,
+      "before_review_card_count": 1278,
+      "before_scroll_height": 58453,
+      "before_last_review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCaU1uaGhUVVJFWDNkc09ETmpUVGxhWDB4c1NYYxAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1328,
+          "after_scroll_height": 59823,
+          "after_scroll_top": 57732,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUN0Z05XZWVBEAE"
+        }
+      ],
+      "records_collected_total": 180,
+      "growth_detected": true
+    },
+    {
+      "round_index": 18,
+      "before_review_card_count": 1328,
+      "before_scroll_height": 59823,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUN0Z05XZWVBEAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1378,
+          "after_scroll_height": 61247,
+          "after_scroll_top": 59102,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNob2VhRHJnRRAB"
+        }
+      ],
+      "records_collected_total": 190,
+      "growth_detected": true
+    },
+    {
+      "round_index": 19,
+      "before_review_card_count": 1378,
+      "before_scroll_height": 61247,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNob2VhRHJnRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1428,
+          "after_scroll_height": 62617,
+          "after_scroll_top": 60526,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNlbzZ5eFd3EAE"
+        }
+      ],
+      "records_collected_total": 200,
+      "growth_detected": true
+    },
+    {
+      "round_index": 20,
+      "before_review_card_count": 1428,
+      "before_scroll_height": 62617,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNlbzZ5eFd3EAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1478,
+          "after_scroll_height": 63987,
+          "after_scroll_top": 61896,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURXNTV2ck13EAE"
+        }
+      ],
+      "records_collected_total": 210,
+      "growth_detected": true
+    },
+    {
+      "round_index": 21,
+      "before_review_card_count": 1478,
+      "before_scroll_height": 63987,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSURXNTV2ck13EAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1528,
+          "after_scroll_height": 65357,
+          "after_scroll_top": 63266,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNHektEVFB3EAE"
+        }
+      ],
+      "records_collected_total": 220,
+      "growth_detected": true
+    },
+    {
+      "round_index": 22,
+      "before_review_card_count": 1528,
+      "before_scroll_height": 65357,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNHektEVFB3EAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1578,
+          "after_scroll_height": 66727,
+          "after_scroll_top": 64636,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUN5Nl9uLVl3EAE"
+        }
+      ],
+      "records_collected_total": 230,
+      "growth_detected": true
+    },
+    {
+      "round_index": 23,
+      "before_review_card_count": 1578,
+      "before_scroll_height": 66727,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUN5Nl9uLVl3EAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1628,
+          "after_scroll_height": 68097,
+          "after_scroll_top": 66006,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNpdUxyd3NBRRAB"
+        }
+      ],
+      "records_collected_total": 240,
+      "growth_detected": true
+    },
+    {
+      "round_index": 24,
+      "before_review_card_count": 1628,
+      "before_scroll_height": 68097,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUNpdUxyd3NBRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1678,
+          "after_scroll_height": 69467,
+          "after_scroll_top": 67376,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURjbXA2a3JRRRAB"
+        }
+      ],
+      "records_collected_total": 250,
+      "growth_detected": true
+    },
+    {
+      "round_index": 25,
+      "before_review_card_count": 1678,
+      "before_scroll_height": 69467,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURjbXA2a3JRRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1728,
+          "after_scroll_height": 70837,
+          "after_scroll_top": 68506,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUQwb08zZUpnEAE"
+        }
+      ],
+      "records_collected_total": 260,
+      "growth_detected": true
+    },
+    {
+      "round_index": 26,
+      "before_review_card_count": 1728,
+      "before_scroll_height": 70837,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUQwb08zZUpnEAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1778,
+          "after_scroll_height": 72207,
+          "after_scroll_top": 70116,
+          "after_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNVX3IzRkRREAE"
+        }
+      ],
+      "records_collected_total": 270,
+      "growth_detected": true
+    },
+    {
+      "round_index": 27,
+      "before_review_card_count": 1778,
+      "before_scroll_height": 72207,
+      "before_last_review_id": "ChZDSUhNMG9nS0VJQ0FnSUNVX3IzRkRREAE",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1828,
+          "after_scroll_height": 73577,
+          "after_scroll_top": 71246,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUM0OHN1ajhRRRAB"
+        }
+      ],
+      "records_collected_total": 280,
+      "growth_detected": true
+    },
+    {
+      "round_index": 28,
+      "before_review_card_count": 1828,
+      "before_scroll_height": 73577,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSUM0OHN1ajhRRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 10,
+          "after_review_card_count": 1878,
+          "after_scroll_height": 74947,
+          "after_scroll_top": 72856,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURJM3FXSTNRRRAB"
+        }
+      ],
+      "records_collected_total": 290,
+      "growth_detected": true
+    },
+    {
+      "round_index": 29,
+      "before_review_card_count": 1878,
+      "before_scroll_height": 74947,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURJM3FXSTNRRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 7,
+          "after_review_card_count": 1913,
+          "after_scroll_height": 75906,
+          "after_scroll_top": 74226,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURnLWRDemlnRRAB"
+        }
+      ],
+      "records_collected_total": 297,
+      "growth_detected": true
+    },
+    {
+      "round_index": 30,
+      "before_review_card_count": 1913,
+      "before_scroll_height": 75906,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURnLWRDemlnRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 0,
+          "after_review_card_count": 1913,
+          "after_scroll_height": 75834,
+          "after_scroll_top": 74873,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURnLWRDemlnRRAB"
+        },
+        {
+          "strategy_name": "pane_step_scroll",
+          "action_result": {
+            "step": 384,
+            "step_scroll_tops": [
+              74873,
+              74873,
+              74873
+            ]
+          },
+          "new_records_added": 0,
+          "after_review_card_count": 1913,
+          "after_scroll_height": 75834,
+          "after_scroll_top": 74873,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURnLWRDemlnRRAB"
+        },
+        {
+          "strategy_name": "mouse_wheel_over_pane",
+          "action_result": {
+            "wheel_used": true
+          },
+          "new_records_added": 0,
+          "after_review_card_count": 1913,
+          "after_scroll_height": 75834,
+          "after_scroll_top": 74873,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURnLWRDemlnRRAB"
+        }
+      ],
+      "records_collected_total": 297,
+      "growth_detected": false
+    },
+    {
+      "round_index": 31,
+      "before_review_card_count": 1913,
+      "before_scroll_height": 75834,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURnLWRDemlnRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 0,
+          "after_review_card_count": 1913,
+          "after_scroll_height": 75834,
+          "after_scroll_top": 74873,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURnLWRDemlnRRAB"
+        },
+        {
+          "strategy_name": "pane_step_scroll",
+          "action_result": {
+            "step": 384,
+            "step_scroll_tops": [
+              74873,
+              74873,
+              74873
+            ]
+          },
+          "new_records_added": 0,
+          "after_review_card_count": 1913,
+          "after_scroll_height": 75834,
+          "after_scroll_top": 74873,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURnLWRDemlnRRAB"
+        },
+        {
+          "strategy_name": "mouse_wheel_over_pane",
+          "action_result": {
+            "wheel_used": true
+          },
+          "new_records_added": 0,
+          "after_review_card_count": 1913,
+          "after_scroll_height": 75834,
+          "after_scroll_top": 74873,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURnLWRDemlnRRAB"
+        }
+      ],
+      "records_collected_total": 297,
+      "growth_detected": false
+    },
+    {
+      "round_index": 32,
+      "before_review_card_count": 1913,
+      "before_scroll_height": 75834,
+      "before_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURnLWRDemlnRRAB",
+      "strategies": [
+        {
+          "strategy_name": "last_card_into_view",
+          "action_result": {
+            "scrolled": true
+          },
+          "new_records_added": 0,
+          "after_review_card_count": 1913,
+          "after_scroll_height": 75834,
+          "after_scroll_top": 74873,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURnLWRDemlnRRAB"
+        },
+        {
+          "strategy_name": "pane_step_scroll",
+          "action_result": {
+            "step": 384,
+            "step_scroll_tops": [
+              74873,
+              74873,
+              74873
+            ]
+          },
+          "new_records_added": 0,
+          "after_review_card_count": 1913,
+          "after_scroll_height": 75834,
+          "after_scroll_top": 74873,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURnLWRDemlnRRAB"
+        },
+        {
+          "strategy_name": "mouse_wheel_over_pane",
+          "action_result": {
+            "wheel_used": true
+          },
+          "new_records_added": 0,
+          "after_review_card_count": 1913,
+          "after_scroll_height": 75834,
+          "after_scroll_top": 74873,
+          "after_last_review_id": "ChdDSUhNMG9nS0VJQ0FnSURnLWRDemlnRRAB"
+        }
+      ],
+      "records_collected_total": 297,
+      "growth_detected": false
+    }
+  ],
+  "strategy_sequence": [
+    "last_card_into_view",
+    "pane_step_scroll",
+    "mouse_wheel_over_pane"
+  ],
+  "cards_collected_total": 297,
+  "final_review_card_count": 1913,
+  "output_jsonl_path": "data\\playwright\\bailemen_jiuguan\\runs\\reviews_20260327T133236Z.jsonl"
+}

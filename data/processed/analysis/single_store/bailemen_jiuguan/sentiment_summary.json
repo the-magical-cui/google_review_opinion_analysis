@@ -1,0 +1,22 @@
+[
+  {
+    "place_id": "bailemen_jiuguan",
+    "review_count": 132,
+    "avg_sentiment_score": 0.5378787878787878,
+    "avg_star_rating": 4.568181818181818,
+    "avg_spend_amount": 342.1842105263158,
+    "spend_sample_count": 19,
+    "avg_google_food_rating": 4.666666666666667,
+    "google_food_rating_count": 30,
+    "avg_google_service_rating": 4.833333333333333,
+    "google_service_rating_count": 30,
+    "avg_google_atmosphere_rating": 4.870967741935484,
+    "google_atmosphere_rating_count": 31,
+    "negative": 5,
+    "neutral": 76,
+    "positive": 51,
+    "positive_ratio": 0.38636363636363635,
+    "neutral_ratio": 0.5757575757575758,
+    "negative_ratio": 0.03787878787878788
+  }
+]
