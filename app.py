@@ -415,30 +415,35 @@ def render_cross_store_analysis(query_service: ReviewQueryService, summary: Plac
     else:
         focus_aspects = aspect_comparison.groupby("aspect_name")["mention_count"].sum().sort_values(ascending=False).head(6).index.tolist()
         filtered_aspects = aspect_comparison[aspect_comparison["aspect_name"].isin(focus_aspects)].copy()
-        selected_aspect = None
-        selected_place_name = None
-        for start in range(0, len(focus_aspects), 3):
-            cols = st.columns(3)
-            for col, aspect_name in zip(cols, focus_aspects[start : start + 3]):
-                aspect_slice = filtered_aspects[filtered_aspects["aspect_name"] == aspect_name].copy()
-                with col:
-                    event = st.altair_chart(
-                        build_cross_store_common_aspect_chart(aspect_slice, selection_name=f"cross_store_aspect_pick_{aspect_name}"),
-                        use_container_width=True,
-                        on_select="rerun",
-                        selection_mode=[f"cross_store_aspect_pick_{aspect_name}"],
-                    )
-                    picked_aspect = extract_selection_value(event, "aspect_name")
-                    picked_place = extract_selection_value(event, "place_name")
-                    if picked_aspect and picked_place:
-                        selected_aspect = picked_aspect
-                        selected_place_name = picked_place
+        st.altair_chart(
+            build_cross_store_common_aspect_distribution_chart(filtered_aspects),
+            use_container_width=True,
+        )
+        st.markdown("<div style='height: 1.25rem;'></div>", unsafe_allow_html=True)
+
+        selector_cols = st.columns(2)
+        available_aspects = focus_aspects
+        available_place_names = filtered_aspects["place_name"].drop_duplicates().tolist()
+        selected_aspect = selector_cols[0].selectbox(
+            "選擇面向",
+            options=available_aspects,
+            index=0 if available_aspects else None,
+            key="cross_store_common_aspect_selector",
+        )
+        selected_place_name = selector_cols[1].selectbox(
+            "選擇店家",
+            options=available_place_names,
+            index=0 if available_place_names else None,
+            key="cross_store_common_place_selector",
+        )
         if selected_aspect and selected_place_name:
             place_id = resolve_place_id_from_name(query_service, selected_place_name)
             if place_id:
-                render_aspect_review_matches(query_service.get_single_store_aspect_mentions(place_id, selected_aspect), heading=f"Sanity Check：{selected_place_name} / {selected_aspect}", box_key=f"cross_aspect_{place_id}_{selected_aspect}")
-        else:
-            st.info("點任一小圖中的長條，即可查看該店該面向的原始評論。")
+                render_aspect_review_matches(
+                    query_service.get_single_store_aspect_mentions(place_id, selected_aspect),
+                    heading=f"Sanity Check：{selected_place_name} / {selected_aspect}",
+                    box_key=f"cross_aspect_{place_id}_{selected_aspect}",
+                )
         st.markdown("<div style='height: 1.5rem;'></div>", unsafe_allow_html=True)
 
         render_diverging_ratio_chart(
@@ -761,21 +766,112 @@ def build_single_store_aspect_chart(frame: pd.DataFrame) -> alt.Chart:
     )
 
 
-def build_cross_store_common_aspect_chart(frame: pd.DataFrame, *, selection_name: str) -> alt.Chart:
-    selection = alt.selection_point(fields=["aspect_name", "place_name"], name=selection_name)
-    return (
-        alt.Chart(frame)
-        .mark_bar()
-        .encode(
-            x=alt.X("place_name:N", title=None),
-            y=alt.Y("avg_aspect_sentiment_score:Q", title="平均面向 sentiment"),
-            color=alt.Color("place_name:N", title="店家"),
-            tooltip=[alt.Tooltip("place_name:N", title="店家"), alt.Tooltip("aspect_name:N", title="面向"), alt.Tooltip("mention_count:Q", title="提及次數"), alt.Tooltip("avg_aspect_sentiment_score:Q", title="平均面向 sentiment", format=".3f"), alt.Tooltip("positive_ratio:Q", title="正向比例", format=".1%"), alt.Tooltip("negative_ratio:Q", title="負向比例", format=".1%")],
-            opacity=alt.condition(selection, alt.value(1.0), alt.value(0.75)),
+def build_cross_store_common_aspect_distribution_chart(frame: pd.DataFrame) -> alt.Chart:
+    if frame.empty:
+        return alt.Chart(pd.DataFrame({"x": [], "y": []})).mark_point()
+
+    plot_rows: list[dict] = []
+    for _, row in frame.iterrows():
+        positive_ratio = float(row.get("positive_ratio", 0) or 0)
+        negative_ratio = float(row.get("negative_ratio", 0) or 0)
+        neutral_ratio = float(row.get("neutral_ratio", 0) or 0)
+        plot_rows.append(
+            {
+                "aspect_name": row["aspect_name"],
+                "place_name": row["place_name"],
+                "sentiment_side": "正向",
+                "ratio_signed": positive_ratio,
+                "ratio_label": f"{positive_ratio * 100:.0f}%",
+                "neutral_ratio": neutral_ratio,
+                "mention_count": int(row.get("mention_count", 0) or 0),
+                "avg_aspect_sentiment_score": float(row.get("avg_aspect_sentiment_score", 0) or 0),
+                "positive_ratio": positive_ratio,
+                "negative_ratio": negative_ratio,
+            }
         )
-        .add_params(selection)
-        .properties(width=180, height=220, title=str(frame["aspect_name"].iloc[0]) if not frame.empty else None)
+        plot_rows.append(
+            {
+                "aspect_name": row["aspect_name"],
+                "place_name": row["place_name"],
+                "sentiment_side": "負向",
+                "ratio_signed": -negative_ratio,
+                "ratio_label": f"{negative_ratio * 100:.0f}%",
+                "neutral_ratio": neutral_ratio,
+                "mention_count": int(row.get("mention_count", 0) or 0),
+                "avg_aspect_sentiment_score": float(row.get("avg_aspect_sentiment_score", 0) or 0),
+                "positive_ratio": positive_ratio,
+                "negative_ratio": negative_ratio,
+            }
+        )
+
+    plot_df = pd.DataFrame(plot_rows)
+    place_order = frame["place_name"].drop_duplicates().tolist()
+    aspect_order = (
+        frame.groupby("aspect_name")["mention_count"]
+        .sum()
+        .sort_values(ascending=False)
+        .index.tolist()
     )
+
+    base = alt.Chart(plot_df).encode(
+        x=alt.X("place_name:N", title=None, sort=place_order, axis=alt.Axis(labelAngle=-90, labelLimit=1000)),
+        y=alt.Y(
+            "ratio_signed:Q",
+            title="比例",
+            scale=alt.Scale(domain=[-1, 1]),
+            axis=alt.Axis(format=".0%"),
+        ),
+        tooltip=[
+            alt.Tooltip("aspect_name:N", title="面向"),
+            alt.Tooltip("place_name:N", title="店家"),
+            alt.Tooltip("positive_ratio:Q", title="正向比例", format=".1%"),
+            alt.Tooltip("neutral_ratio:Q", title="中性比例", format=".1%"),
+            alt.Tooltip("negative_ratio:Q", title="負向比例", format=".1%"),
+            alt.Tooltip("mention_count:Q", title="提及次數"),
+            alt.Tooltip("avg_aspect_sentiment_score:Q", title="平均面向 sentiment", format=".3f"),
+        ],
+    )
+
+    bars = base.mark_bar(size=20, stroke="#90A4AE", strokeWidth=1).encode(
+        color=alt.Color(
+            "sentiment_side:N",
+            title="方向",
+            scale=alt.Scale(domain=["正向", "負向"], range=["#B9F6CA", "#FFCDD2"]),
+            legend=None,
+        )
+    )
+
+    positive_text = (
+        base.transform_filter(alt.datum.sentiment_side == "正向")
+        .mark_text(dy=-8, fontSize=11, color="#2E7D32")
+        .encode(text="ratio_label:N")
+    )
+    negative_text = (
+        base.transform_filter(alt.datum.sentiment_side == "負向")
+        .mark_text(dy=10, baseline="top", fontSize=11, color="#C62828")
+        .encode(text="ratio_label:N")
+    )
+
+    chart = (
+        alt.layer(bars, positive_text, negative_text)
+        .facet(
+            facet=alt.Facet("aspect_name:N", title=None, sort=aspect_order),
+            columns=3,
+        )
+        .resolve_scale(y="shared")
+        .properties(title="共同面向分析")
+        .configure_view(stroke=None)
+        .configure_facet(spacing=16)
+        .configure_axis(labelColor="#4F5B72", titleColor="#4F5B72")
+        .configure_header(
+            labelFontSize=16,
+            labelFontWeight="bold",
+            labelColor="#253041",
+            labelOrient="top",
+            title=None,
+        )
+    )
+    return chart
 
 
 def extract_selection_value(event: object, field_name: str) -> str | None:
@@ -806,7 +902,8 @@ def extract_selection_value(event: object, field_name: str) -> str | None:
 
 
 def render_aspect_review_matches(frame: pd.DataFrame, *, heading: str, box_key: str) -> None:
-    st.markdown(f"##### {heading}")
+    clean_heading = heading.replace("Sanity Check：", "").replace("Sanity Check:", "").strip()
+    st.markdown(f"##### {clean_heading}")
     if frame.empty:
         st.info("目前沒有可顯示的原始評論。")
         return
@@ -827,7 +924,10 @@ def render_aspect_review_matches(frame: pd.DataFrame, *, heading: str, box_key: 
         if likes:
             meta_parts.append(f"其他用戶按讚 {likes}")
         review_text = html.escape(str(getattr(row, "review_text", "") or ""))
-        owner_reply = html.escape(str(getattr(row, "owner_response_text", "") or ""))
+        owner_response_value = getattr(row, "owner_response_text", "")
+        owner_reply = ""
+        if pd.notna(owner_response_value):
+            owner_reply = html.escape(str(owner_response_value or "").strip())
         card_html = ["<div class='review-card'>", f"<div class='review-card-title'>{title}</div>", f"<div class='review-card-meta'>{' | '.join(meta_parts) if meta_parts else '沒有額外資訊'}</div>", f"<div>{review_text}</div>"]
         if owner_reply:
             card_html.append("<div class='owner-reply'><strong>店家回覆</strong><br/>")
