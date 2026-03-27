@@ -54,3 +54,6 @@
 * [18:28] 重寫 `REPORT.md` 為正式交作業版，改成摘要/資料來源/資料庫/前端/分析方法與結果/警訊判讀/商業化服務/附錄八段結構，並補上 Streamlit Community Cloud 部署路線。
 * [19:05] 新增 cross-store correlation / regression 分析，輸出 `aspect_star_relation.csv`、`regression_summary.csv`、`regression_coefficients.csv` 與對應圖表。
 * [19:12] 將現有分析圖與 regression 結果編號整合進 `REPORT.md`，補上圖號、圖題、表格與正文引用。
+
+* [20:12] 新增 untime.txt 並將 Streamlit 部署環境固定為 Python 3.12，避免 Streamlit Cloud 使用 Python 3.14 與 Altair 相依組合造成匯入失敗。
+* [20:13] 新增 runtime.txt 並將 Streamlit 部署環境固定為 Python 3.12，避免 Streamlit Cloud 使用 Python 3.14 與 Altair 相依組合造成匯入失敗。
