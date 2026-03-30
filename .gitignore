@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local runtime / deployment noise
+.streamlit/secrets.toml
+
+# Playwright / browser profiles and caches
+data/playwright/profile/
+**/Cache/
+**/Cache_Data/
+**/Code Cache/
+**/GPUCache/
+**/ShaderCache/
+**/GrShaderCache/
+**/GraphiteDawnCache/
+**/DawnGraphiteCache/
+**/DawnWebGPUCache/
+**/Service Worker/
+
+# Debug artifacts that may embed third-party keys or session data
+data/raw/**/debug_*.html
+data/playwright/**/debug_*.html
+
+# Optional large local browser artifacts
+*.log
